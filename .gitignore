@@ -1,0 +1,53 @@
+# Local environments and installed dependencies
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.deepeval/
+.mypy_cache/
+.ruff_cache/
+*.tsbuildinfo
+
+# Credentials, local configuration and engineering workspaces
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.local/
+work/
+jobs/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+.claude/
+.codex/
+.openai/
+
+# Generated outputs; only the synthetic example input is versioned
+drawform/out/*
+!drawform/out/seat.step
+dist/
+build/
+generated/
+research/out/
+spike/out/
+
+# External corpora and downloaded reference repositories
+corpus/
+公开样本_dxf/
+research/repos/
+research/repos-cad/
+research/repos-rag/
+research/.venv-analyze/
+agent-blueprint-main/
+spike/p04-wsgi-runtime/
+
+.DS_Store
+Thumbs.db

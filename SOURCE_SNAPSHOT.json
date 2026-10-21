@@ -1,0 +1,1722 @@
+{
+  "snapshot_date": "2026-10-21",
+  "source": "Current DrawForm development tree; clean public snapshot without local Git history or engineering workspace data",
+  "files": [
+    {
+      "path": "docs/HANDOFF.md",
+      "sha256": "52c719e37f50f231bbaa540b3e1c7a1bf3ea5a49b0dbe9deb29dfca70fc7ad4f"
+    },
+    {
+      "path": "docs/PROJECT_STATE.md",
+      "sha256": "b06c9b1422343a2d4d9bf18ab539c6cd21a32562a2c913f77272f30949e67c9b"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "c92a6f538de8c6dd70eb9670b24feebffc0f672dc0e5778fce211efe59b8d81d"
+    },
+    {
+      "path": "docs/design/DrawForm-VEYRA-前端适配-20261018.md",
+      "sha256": "de0ef6f1218eb5fca5f3695636bc0bdf8a4c6be827bb54f0f4051b6c0084e755"
+    },
+    {
+      "path": "docs/design/DrawForm-中文字体与功能块-20261018.md",
+      "sha256": "ffac873ae9029ee731614e3f6afd8a469f67a737811f6e837ce19f23a79eb511"
+    },
+    {
+      "path": "docs/design/DrawForm-字体与Canvas交互优化-20261019.md",
+      "sha256": "d96fb538ac3ea6f67c57ba43a456e456ad58599379d4c9298d3d176bddea87d8"
+    },
+    {
+      "path": "docs/design/DrawForm-工作区统一与上汽品牌-20261019.md",
+      "sha256": "29025f78512b990b19b7c8406db7915937f608838427f7623902e2b0045bf955"
+    },
+    {
+      "path": "docs/design/gbt10609_titleblock.md",
+      "sha256": "5a5e2eb9a6308d74082b1b1359947de4aae72180f7e7a39d13715fe4bbff6615"
+    },
+    {
+      "path": "docs/design/paper-scale.md",
+      "sha256": "4f94c60b1663f7c6f8ed9d9704ee4d788c0656ab3d6497d59872f5f08877c8ed"
+    },
+    {
+      "path": "docs/design/改后回写与生效版本-设计.md",
+      "sha256": "d72f7157781cd0556c73a28b196839ff9f6f52d5ea7258ebbe62a669e871c7bd"
+    },
+    {
+      "path": "docs/design/斜孔图前参考确认流程-待审阅.md",
+      "sha256": "18d0c79708a8e853885b08492dc9b33bdaa97a99f95c293f91b36f23c7964b54"
+    },
+    {
+      "path": "docs/implementation/first-bundle/AUTO_RESUME_JOURNAL_CONTRACT.md",
+      "sha256": "0e5390348d66c20f995b800eb5080afe9598b99ef55fedf4fccc68516d5c1dc7"
+    },
+    {
+      "path": "docs/implementation/first-bundle/DRAWING_CONTRACT.md",
+      "sha256": "947e46d2b9780b90ce40da6674f975332877a23f68ce3009ec1938b98e3d2b3d"
+    },
+    {
+      "path": "docs/implementation/first-bundle/PROJECT_DELIVERY_CONTRACT.md",
+      "sha256": "3a9de00675316342e19ce7eb71af1a8d3a52f5ed4bc9b2ce34aceb4112427ea8"
+    },
+    {
+      "path": "docs/implementation/first-bundle/PROJECT_RECOVERY_RUNBOOK.md",
+      "sha256": "c982ab9f2c8613ff87b38d3835fe71b8590139c38d7d200e9f564163c082e047"
+    },
+    {
+      "path": "docs/implementation/first-bundle/REVISION_CONTRACT.md",
+      "sha256": "cd63bf238acba6665166da9100267ee019525bc236f3fdb7b063e3eb8be6327f"
+    },
+    {
+      "path": "docs/implementation/first-bundle/STATE.md",
+      "sha256": "e33c64a9e49972aaa7c218f876943366507664049af5aeb18ffd817aedd11aa1"
+    },
+    {
+      "path": "docs/implementation/first-bundle/STEPPED_SHAFT_CONTRACT.md",
+      "sha256": "4b1e13d7fb8b0a71e0519da7258e4c15a49f0fe39b7f86296dbc28c3566cb954"
+    },
+    {
+      "path": "docs/implementation/first-bundle/TEXT_CLARIFICATION_CONTRACT.md",
+      "sha256": "c1e4890468f67c3cf078e1ed16ef1642400b446990d2771c3e8bc097bebc1afe"
+    },
+    {
+      "path": "docs/implementation/first-bundle/UI_REFERENCE.md",
+      "sha256": "86526b1c289938d89e70609d9e0fd2d542135c438838faabbbe61667d6be8acd"
+    },
+    {
+      "path": "docs/implementation/first-bundle/implementation-tasks.json",
+      "sha256": "e4cb09cfb51305ee53a2bd02e71ecbb3ecb50788bc317f3095d9dd8ea5a6d090"
+    },
+    {
+      "path": "docs/implementation/first-bundle/modeling-contract-examples.json",
+      "sha256": "442fea4fa632aa91b43f0618cae10de99b6c5a63af7d4e0872a88bf6440a1bee"
+    },
+    {
+      "path": "docs/implementation/first-bundle/modeling-spec.schema.json",
+      "sha256": "41523f9837398d65a659b8f2617439fb20d43df10770d7944eda32df893dcbb4"
+    },
+    {
+      "path": "docs/implementation/first-bundle/plan-metadata.json",
+      "sha256": "d5258dcaf1c62dcc61df4110844341cf1ac9a4a8b61aef1e6a0e337022eb2f76"
+    },
+    {
+      "path": "docs/intake/老图纸取数清单.md",
+      "sha256": "5fb36432bb2240f5512da19a2927c5990237a5f352c394d52655768640feede7"
+    },
+    {
+      "path": "docs/pilot/P0-12项A方案-执行口径.md",
+      "sha256": "634b42dcdfb98d012fc8071317de81a3ab9abe1a8a64fd90b4673c43465b5630"
+    },
+    {
+      "path": "docs/pilot/P0.4-首批审图记录模板.md",
+      "sha256": "c1abd170749231cc11d11c6b3ab38b152f2a8a0572ef7142d05465feab28b344"
+    },
+    {
+      "path": "docs/pilot/README.md",
+      "sha256": "52d85b4900315de0bd2334e976d28af9058367e75b4678f53ffcf21e013b519b"
+    },
+    {
+      "path": "docs/requirements/PRD.md",
+      "sha256": "8d0b13a0f4a2684fdee4b00cefeb79f106d5e03e0b789debbe1fa78685b2cf23"
+    },
+    {
+      "path": "docs/research/开源二次调研-2026-10-12.md",
+      "sha256": "157c90fd1b6dc6e81f4c1b1adb1c0852313e7900e394172afe67d1a6aa2162b6"
+    },
+    {
+      "path": "docs/validation/DrawForm-VEYRA前端重构验证-20261018.md",
+      "sha256": "357af12f2acd54eaaf35c03fdb1c0d34ebb9185307cff2e6e6cd0bf352c27501"
+    },
+    {
+      "path": "docs/validation/DrawForm-上汽蓝按钮与图片外功能入口-20261019.md",
+      "sha256": "134a11ad4116afd83ca4e0696bbfc5d3b409757fae878f231291b6ff5886a27b"
+    },
+    {
+      "path": "docs/validation/DrawForm-中文故障黑与功能块验证-20261018.md",
+      "sha256": "b185967c6acfe165ba9f3feb23581941d0655127225607babd36b8742fb9c7c6"
+    },
+    {
+      "path": "docs/validation/DrawForm-字体Canvas与交互检查-20261019.md",
+      "sha256": "dbc8955e7525bb8e2a6034167f8c31be11f0e2ad733ba6b9d637a812077db849"
+    },
+    {
+      "path": "docs/validation/DrawForm-审查复核与缺陷修复-20261021.md",
+      "sha256": "86624e97092794a0331abd58555fedc2ce83a66758602e8d8215a84b8fe4b0fe"
+    },
+    {
+      "path": "docs/validation/DrawForm-工作区统一与上汽品牌验证-20261019.md",
+      "sha256": "0131caa0a1dcb7e55c98a9f6377e840eaa493cdf0ee0dd730164f86ff1bfc41b"
+    },
+    {
+      "path": "docs/validation/DrawForm-零件示意图编号清理-20261019.md",
+      "sha256": "18cf531cb974150fce2c256593dadf3d1d6719ba20aa41ba70cc29910b90f7b0"
+    },
+    {
+      "path": "docs/validation/P0-12项A方案实现记录-20261014.md",
+      "sha256": "a32424627a701805e954d3266bd68949b12b61161984f0dd95caaeb87ac94708"
+    },
+    {
+      "path": "docs/validation/P0-CTC01-A2候选与集中确认-20261016.md",
+      "sha256": "86efdbbadd71187a297d3ba2cb70d5e7eaeca6a621ff8c10069ef7ed539b837e"
+    },
+    {
+      "path": "docs/validation/P0-CTC01-A2原型接入-20261016.md",
+      "sha256": "b9546e7b1e55f2dae0ba4d20023bb05454879e59ae5567e4081223459fd09b28"
+    },
+    {
+      "path": "docs/validation/P0-GEO019-沉孔语义修复-20261015.md",
+      "sha256": "49f3a0285ece3240fa7b8f4b4019d609f3aaab05822ddf6774fab29ba96857b9"
+    },
+    {
+      "path": "docs/validation/P0-八小时执行记录-20261014.md",
+      "sha256": "5641db1d9c7baf387392827c310696a9bb66cb9c9c4137e941dea5c8114a3a5d"
+    },
+    {
+      "path": "docs/validation/P0-公开STEP三项修复-20261014.md",
+      "sha256": "6ced4a86532c2c3bb97cd7f1b02a2181f855ec271406f17a827b56db6279161c"
+    },
+    {
+      "path": "docs/validation/P0-公开STEP独立技术验证-20261014.md",
+      "sha256": "dbfe384e967efcc37288f44b34dbc8aea7a08dedae4d4b846c53dd86fd09a328"
+    },
+    {
+      "path": "docs/validation/P0-公开样本完整流程与交互修复-20261016.md",
+      "sha256": "7865a986e1ae3feba0637c1206401d07b739b70062c168942be7eb1e850fbfcf"
+    },
+    {
+      "path": "docs/validation/P0-几何一致性与密集引线-20261015.md",
+      "sha256": "8051c073a8a38df34d135adcc7b351caf7a34039b53fd9b38ef116f38ed8b239"
+    },
+    {
+      "path": "docs/validation/P0-前端交互修复与验收-20261015.md",
+      "sha256": "d3fc7f172eeb48c9e1868e87be570a0b4c62556249ee78285734f78116022fb0"
+    },
+    {
+      "path": "docs/validation/P0-前端交互流程审查-20261015.md",
+      "sha256": "9c41a3c6c8631a74d229e7026080eed8eda44494e9b52b93ba782fe9a5b112bc"
+    },
+    {
+      "path": "docs/validation/P0-剖视填充修复-20261014.md",
+      "sha256": "665c920f54183a92ab34b4fb55cf0d048576e9c83dd2f04cb08185dc3c865e2b"
+    },
+    {
+      "path": "docs/validation/P0-图框批准落地与15件拒绝原因-20261015.md",
+      "sha256": "f3a68c52bcea273a125aa84e10223c097290f42035b8c588945ab6e12538e1c3"
+    },
+    {
+      "path": "docs/validation/P0-图面比例与斜孔落位-20261014.md",
+      "sha256": "86551e9f92a6da2264f8903b27d7bb59a6329fd7293e6fe6932c9b9a10cec7db"
+    },
+    {
+      "path": "docs/validation/P0-尺寸一致性交付门-20261015.md",
+      "sha256": "e595ddd173fac52e3f7eaef4b8977662de5b6752870df93c17b024df5a44774f"
+    },
+    {
+      "path": "docs/validation/P0-布局与直径来源原型-20261016.md",
+      "sha256": "a881fc3b8b9fef0c3582c33290f0f11dc550a4bbe9a66c7fbb056b461f0a7c33"
+    },
+    {
+      "path": "docs/validation/P0-支撑参考稳定性与DXF类表顺序-20261015.md",
+      "sha256": "06d2428c950e2fd4fb8c65fffaec84f52919e5d373822127250fee193afc4c98"
+    },
+    {
+      "path": "docs/validation/P0-斜孔图前参考V1实现与验证-20261015.md",
+      "sha256": "ff5cb4831ef09ca2bd58f03b1a0052af921a0a21a0317c80831da95eb4cf7ef0"
+    },
+    {
+      "path": "docs/validation/P0-斜孔定位参考与继续开发决策-20261015.md",
+      "sha256": "8c11c709e2821fa720950bb15627432962935fc2d7f43117851e7e0e48b538dd"
+    },
+    {
+      "path": "docs/validation/P0-材料边界参考-20261015.md",
+      "sha256": "b9b19fa1165893525325095fecca19e4d42bce36264bffaae7cc0e167803abf7"
+    },
+    {
+      "path": "docs/validation/P0.5-本地自检与文档核对-20261014.md",
+      "sha256": "b3a7cba2f7eabee620a1da00f413dc8f31b72005bd1cdbeaa8bbadff7e4b6261"
+    },
+    {
+      "path": "docs/validation/T-27-单线程稳定性记录-20261013.md",
+      "sha256": "644772cdb8b2850ceaf86729268d32f3f49cb68b0e236ce3a9bd365bfc4b640c"
+    },
+    {
+      "path": "docs/validation/V2-中断自动续算与旧入口统一发布日志真实闭环-20261018.md",
+      "sha256": "0c72997f17e3bc0794b53607a1f6559de3918c3906f4340bbde36fd42f310b53"
+    },
+    {
+      "path": "docs/validation/V2-二段阶梯轴文字图纸建模与肩面出图闭环-20261018.md",
+      "sha256": "73b6e9d52ae3572792f21ce8fe98755950bf87c9bef4401d9660d975b1b083ab"
+    },
+    {
+      "path": "docs/validation/V2-图纸输入澄清与简单零件闭环-20261018.md",
+      "sha256": "fea889b56061ec4fd2c0ff89fc331a3cae01f5eb8e41f30ba67750cd5760bf33"
+    },
+    {
+      "path": "docs/validation/V2-文字缺尺寸澄清与模型版本闭环-20261018.md",
+      "sha256": "7c262bd35c792a945e2ed30584c2bd5c45de525860555fe08a32f735d21ef481"
+    },
+    {
+      "path": "docs/validation/V2-模型修改版本与文字多孔板闭环-20261018.md",
+      "sha256": "6a9a9bcccb37b92b74846bef12226544f9c7e02478a6d5c4865d1963a8f7a569"
+    },
+    {
+      "path": "docs/validation/V2-项目有效版本统一交付与恢复闭环-20261018.md",
+      "sha256": "448886e4f948ce37eb9e363d34a1a02d72c1b4fe98b779586b281a32c4edf163"
+    },
+    {
+      "path": "docs/validation/V2-首个文字建模STEP出图闭环-20261018.md",
+      "sha256": "410e0f884742efd1e4fea0e8384ce4f45f448e161ff3454f0007e0221081bdd8"
+    },
+    {
+      "path": "drawform/deploy/MAINTENANCE.md",
+      "sha256": "ca2bc72f1e1e4b982fbcafc96de20be6e10a9ab251e2a2a41970bf377d4c7fc1"
+    },
+    {
+      "path": "drawform/deploy/PAPER_SCALE.md",
+      "sha256": "6f8da020677f089fcb3a349c5a64d5c7d0f4d89107e301a0dadcd873946dc0cc"
+    },
+    {
+      "path": "drawform/deploy/PILOT_OPERATIONS.md",
+      "sha256": "59927e60caf698050144829c96fb8c121f1051c060548e00f491d03abbf84f63"
+    },
+    {
+      "path": "drawform/deploy/PUBLIC_STEP_FIXES.md",
+      "sha256": "1553993c029f0527aad8023e782089131c79aad17c48be08c21567d2e58139d9"
+    },
+    {
+      "path": "drawform/deploy/PUBLIC_STEP_VALIDATION.md",
+      "sha256": "ef76e30fcfc79a48fe8dfd7921fc7317017c434980be719504eb3be1912d7b2f"
+    },
+    {
+      "path": "drawform/deploy/README.md",
+      "sha256": "2956b67273b2b2be16a396b5237afb0cac3d8425a72b557cab062664a33fc958"
+    },
+    {
+      "path": "drawform/deploy/STABILITY.md",
+      "sha256": "c41ca946ad07d1b7ccb11cce3ebd9a7c948d43a69f38ba3f6a3cd4338acb4f95"
+    },
+    {
+      "path": "drawform/deploy/regress_public_step.py",
+      "sha256": "d88e735306a76744ef35c3f6657639e2bd823e2a60b77c3efafdfafb920ae8bf"
+    },
+    {
+      "path": "drawform/deploy/requirements.txt",
+      "sha256": "911acb5d266a3da97b32a1dd1449fc5bc25803e2af2ede424da81ef1e13da87a"
+    },
+    {
+      "path": "drawform/deploy/verify_local.py",
+      "sha256": "581e7e0c3285a8716bab672a0d0aaca250fc66d06daac56672ce912e0b14498f"
+    },
+    {
+      "path": "drawform/deploy/verify_maintenance.py",
+      "sha256": "ccb047d6770563d0dd5607b03673b8a471f9199fa02f3ab887936e1e75023f72"
+    },
+    {
+      "path": "drawform/deploy/verify_policy_a.py",
+      "sha256": "ea8a4ad066cae3e4dbc82d41494c49f836eacc63b1d49296117d92169ba003ad"
+    },
+    {
+      "path": "drawform/deploy/verify_public_step.py",
+      "sha256": "3ca56aca06dc45d28a92c740acda511d947d7cd451790a53de867bd2a88950fc"
+    },
+    {
+      "path": "drawform/examples/build_three_view.py",
+      "sha256": "c7a9a9377240a4d3b565c3431e02108c91adac5a28ac484286a8598b25c229cd"
+    },
+    {
+      "path": "drawform/frontend/.env.example",
+      "sha256": "c12f6bbcb8dc7feb6109bd7fb64e9b02e6b2a71f7fbd0868d66d7959051bbf84"
+    },
+    {
+      "path": "drawform/frontend/.gitattributes",
+      "sha256": "3e034d91b3360e48685e54ace35c446640fa6f9804c38fd08f98238fdb8f7d44"
+    },
+    {
+      "path": "drawform/frontend/.github/workflows/ci.yml",
+      "sha256": "1a0c3400c8d45122840ca47261fa47f5315b27a9d3d37911271882b99636dba6"
+    },
+    {
+      "path": "drawform/frontend/.gitignore",
+      "sha256": "f61d1b8a6a69a2ebe16bdca7a308d06d2a8e1ccbab714a4e44b5595ff6304dca"
+    },
+    {
+      "path": "drawform/frontend/AGENTS.md",
+      "sha256": "24e00e82510725bef16966ccefc8db4765d6abc2382782ffdec1e638bf668abd"
+    },
+    {
+      "path": "drawform/frontend/CHANGELOG.md",
+      "sha256": "89901ed86421dc9937737c356c564236da2b679a815c0ab1dc2f2ca18602e22e"
+    },
+    {
+      "path": "drawform/frontend/CLAUDE.md",
+      "sha256": "a4ef0400c4c8c67f08f588b1b1686209ccad91f57f5366ea36a3efff8f783c62"
+    },
+    {
+      "path": "drawform/frontend/CONTRIBUTING.md",
+      "sha256": "35b9fc30915725764de60e7d7e2b12907a09c19ab786dafebf388678e77a9a85"
+    },
+    {
+      "path": "drawform/frontend/DRAWFORM_ADAPTATION.md",
+      "sha256": "6c125023494d7adc0b2a3f6ecb45906d32384fbd0b8596dd0dc8750d4a960238"
+    },
+    {
+      "path": "drawform/frontend/DRAWFORM_COMPONENT_NOTICES.md",
+      "sha256": "516157c50c995795c3929566bb5f968bab4e7482f64cbe964846e835e337fd87"
+    },
+    {
+      "path": "drawform/frontend/LICENSE",
+      "sha256": "436fc48f64fbe66a43a58a3e1f46158c59cd2de42f07d96402dea67d75a90277"
+    },
+    {
+      "path": "drawform/frontend/README.md",
+      "sha256": "2df56ae395a65fd85e37c33c5f4b25b08ed6750793a3c6da115ae59fbcf96a7d"
+    },
+    {
+      "path": "drawform/frontend/SECURITY.md",
+      "sha256": "75292fa54913b3b9a76be569bd6966f2ae85726c3310526e37b0543ceb833663"
+    },
+    {
+      "path": "drawform/frontend/THIRD_PARTY_NOTICES.md",
+      "sha256": "ba0d85c10b612c5da7dfb0eab726ff72fdf6a406da872dc92fa0af15a0241e25"
+    },
+    {
+      "path": "drawform/frontend/docs/AGENTS_GUIDE.md",
+      "sha256": "6669907f090566c4e23be7bbfb7ac21030f72d2f830bf0951adce4f5340e70de"
+    },
+    {
+      "path": "drawform/frontend/docs/ARCHITECTURE.md",
+      "sha256": "f82adee7b94bf07d210dcd4f822b2331a1ffc45bababef76af046b95937c2f36"
+    },
+    {
+      "path": "drawform/frontend/docs/LTX_API.md",
+      "sha256": "30588232832f25a41f0704e618989b48a0d5d14e120c9d42c704bacf0cf695a2"
+    },
+    {
+      "path": "drawform/frontend/docs/MEDIA.md",
+      "sha256": "1f1cb9c66c6a91658dd0921a178e8a68bfc3d23eb99a534d76b2d4ead7aca858"
+    },
+    {
+      "path": "drawform/frontend/docs/RECREATE.md",
+      "sha256": "f8881725c02ec7433d2486e509c22b0a5ed8dc186f09dae67da7bd376bff2409"
+    },
+    {
+      "path": "drawform/frontend/docs/SETUP.md",
+      "sha256": "ac11c36848791aed668ef5f72a2699bf1191a73ad76993aa6674df68257dcccc"
+    },
+    {
+      "path": "drawform/frontend/docs/START_RU.md",
+      "sha256": "04139acfa5383d1e59400a95c3c50b3603f9baba9e8790603fd585b725700724"
+    },
+    {
+      "path": "drawform/frontend/docs/VERIFICATION.md",
+      "sha256": "b4c2027f23efcae13eb431881723ae806b83a52a00f56d896823f1763a95702f"
+    },
+    {
+      "path": "drawform/frontend/docs/images/desktop.png",
+      "sha256": "ec1969f7e92310fd5cdf6c62ff182e58b0102969a1996c6fed14f223af6eab6c"
+    },
+    {
+      "path": "drawform/frontend/docs/images/mobile.png",
+      "sha256": "c40b148aeb76ba63d068f3a443d374e8c4419996978fa173078fd8f27bbd0ba5"
+    },
+    {
+      "path": "drawform/frontend/examples/ltx/battery-reveal.json",
+      "sha256": "e926fe6c32d29230d537038b1b771e585c78dbd9b67163134414823fcb6439a0"
+    },
+    {
+      "path": "drawform/frontend/examples/ltx/hood-open.json",
+      "sha256": "b43eedbd63dedad90518116d10b01854ae37eb02ee71308bf7b276bfa1820e0f"
+    },
+    {
+      "path": "drawform/frontend/index.html",
+      "sha256": "02834e54ebd53c7357a1f48965d42e59f866fa843dcaf4b1c6188624edf5fe68"
+    },
+    {
+      "path": "drawform/frontend/package.json",
+      "sha256": "44af4ab5d01bc62a05fae09d6ed6435037d3bf708831b03afc3388586eb3b7b7"
+    },
+    {
+      "path": "drawform/frontend/pnpm-lock.yaml",
+      "sha256": "83897f25184490b49b20d2a352ab42b0c8bef6479d8d6bd09e4194f3d642a43f"
+    },
+    {
+      "path": "drawform/frontend/pnpm-workspace.yaml",
+      "sha256": "27b336209bd8b917cefb2a3f8c97fb893829ce96cd2ec58ddc952a26080b0672"
+    },
+    {
+      "path": "drawform/frontend/postcss.config.js",
+      "sha256": "190c877db466995bf1482f4a16abd06e04a89ede3119341e2a86ff96e1737b27"
+    },
+    {
+      "path": "drawform/frontend/production/test-appearance.cjs",
+      "sha256": "9967bf503f0f8aabfeeff7ffd62a1795f4465dda98c0bea32565b494d997a623"
+    },
+    {
+      "path": "drawform/frontend/production/test-hover.cjs",
+      "sha256": "c9b7628b7c0422af7f8b0bb1fd5a2927fffedb5930aa664b48a56f06a5039c49"
+    },
+    {
+      "path": "drawform/frontend/production/test-workflows.cjs",
+      "sha256": "a7d6a5eecf71a7ea1b0f7664ecb08309b43cedd4b30cc09b13e00ccce7be3490"
+    },
+    {
+      "path": "drawform/frontend/public/assets/branding/SOURCE.json",
+      "sha256": "17c3e5d80df1009a9026fa2d6f987dad793b33b1ad936c0d0019573c734b648a"
+    },
+    {
+      "path": "drawform/frontend/public/assets/branding/saic-group-blue.png",
+      "sha256": "6fb5030cb4ec4a044d6f9999e46bcc3bdfff726b136012fedd120dbacf9147d3"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/douyin/DouyinSans.woff2",
+      "sha256": "4616b261912f2aeff54be55375326ba5cbf0ea362156ff62ff8b956221391ac6"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/douyin/OFL.txt",
+      "sha256": "a6d5700a002ea32bcfbe3310253d603997683dac8ac63777e375d06c07c30ea6"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/douyin/SOURCE.json",
+      "sha256": "8629a6b52f31c00bf268714dcb9ee1d10c687f202fdb2e0aafc530abfbb23b18"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/maoken/COPYRIGHT.txt",
+      "sha256": "71258b0d9b2568712684a8d7edab2dc0f13e11e13756917d925e82c5b250eff8"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/maoken/MaokenGlitchSans-UI.woff2",
+      "sha256": "0fbfadedc3fdd6c942effdf49bcc76f7fd01de5781bdf409f045653591f90cb1"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/maoken/OFL-1.1.txt",
+      "sha256": "ee63cdef0af5eb1899d67b5662534cfbce5712536e9bddd9ae6b2619da2b332c"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/maoken/SOURCE.json",
+      "sha256": "e2575185760aa46d67d8c7c73d2c8bd8dab9b304cbc90f91e8d67f48a18fc005"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/maoken/characters.txt",
+      "sha256": "d8f4c0579fef2f4215f1a35c15021a8619069e26013118aecac297dea5f75459"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/youshe/NOTICE.txt",
+      "sha256": "7120d680c1c64dd2fee9becd88ed7108e23f758611a59592c8be6c3352c80ddc"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/youshe/SOURCE.json",
+      "sha256": "3f3118b7c22791d7fb349097ccbd722e8b1399ad479b6168f1e72c5949cbad76"
+    },
+    {
+      "path": "drawform/frontend/public/assets/fonts/youshe/YouSheBiaoTiYuan.woff2",
+      "sha256": "450bcc3355dfa13f9fa30f568332ad01229f9c9394fa7dba86393e2f89c23caa"
+    },
+    {
+      "path": "drawform/frontend/public/assets/notices/canvas-ui-LICENSE.txt",
+      "sha256": "2a9a221a47f581d7984ca3a568e38fb17d5b6e43164db3f3482b4767c8e8e5b3"
+    },
+    {
+      "path": "drawform/frontend/public/media/battery-blue.png",
+      "sha256": "90d573ce8569362b0f0c63e884b8e2683d312c436d4b8bd449a51535817ceb9a"
+    },
+    {
+      "path": "drawform/frontend/public/media/battery-hover-forward.mp4",
+      "sha256": "28f264b3a2b11025e40e273348d90e624c54e511a1b5141260c10032eec8901b"
+    },
+    {
+      "path": "drawform/frontend/public/media/battery-hover-reverse.mp4",
+      "sha256": "0c6d55c302280c531d841da72875aaaf08e32dfe95d3d4ba48cf12a575b3c42a"
+    },
+    {
+      "path": "drawform/frontend/public/media/battery.png",
+      "sha256": "9ce2b98e8897c7ff77384ef5492a840e27e645395f60102cba091092dd12f20c"
+    },
+    {
+      "path": "drawform/frontend/public/media/config/electric-green.png",
+      "sha256": "a4cb72ab48752bf5c27cc079c7f643ac1b3ef23fd8aa3ffc902fa99cc45ab4d8"
+    },
+    {
+      "path": "drawform/frontend/public/media/config/graphite.png",
+      "sha256": "f4d4c277a58c84410059339fcfb61ca7b3603f6cf177da171e141c52507d7fa6"
+    },
+    {
+      "path": "drawform/frontend/public/media/config/lime-green.png",
+      "sha256": "e132799f06033e21a939f8c0afae258a9667d602c326971b89fc3b074bf22e91"
+    },
+    {
+      "path": "drawform/frontend/public/media/config/sky-blue.png",
+      "sha256": "cb4dd42cd552742eca7a12c102c44d117dd3300eb475bce6bc6d33c07b730468"
+    },
+    {
+      "path": "drawform/frontend/public/media/config/wheels-aero.png",
+      "sha256": "75d37bf058b0fb6f77fbdfa2257691ad2d4db57f255c848c454700da9a1c12f6"
+    },
+    {
+      "path": "drawform/frontend/public/media/config/wheels-forged.png",
+      "sha256": "6711c0c45c4b6984183d67f389d7071c61a4026fc471ca95b113f47bac0ba86d"
+    },
+    {
+      "path": "drawform/frontend/public/media/drive-blue.png",
+      "sha256": "af955c93520443f0a827a32c3be2ec831196f10b8a145f54a562675fe1eee69d"
+    },
+    {
+      "path": "drawform/frontend/public/media/drive.png",
+      "sha256": "84ee5a7e09550d99174cc3788f8d0e147886cc3680a607b69db887d7a8f674fa"
+    },
+    {
+      "path": "drawform/frontend/public/media/exterior-blue.png",
+      "sha256": "2498f53baa1bf3b15500c94522b264fcc5d0770786d01d021d1b2ae299822dda"
+    },
+    {
+      "path": "drawform/frontend/public/media/exterior-polished.png",
+      "sha256": "9433f3641eae25d6fc2f96ee646af0867d4906adf659a589c7ba4704d25bd29d"
+    },
+    {
+      "path": "drawform/frontend/public/media/exterior.png",
+      "sha256": "c62ddf054ab80748bf8c3ba3207e57b8eb498a011c1fad91fb398a86e66579e8"
+    },
+    {
+      "path": "drawform/frontend/public/media/hood-hover-forward.mp4",
+      "sha256": "4a95a615e47a105155243745b83c784214fb188348f164af1864cc8dc22981ec"
+    },
+    {
+      "path": "drawform/frontend/public/media/hood-hover-reverse.mp4",
+      "sha256": "ee73759cd6d715d9ab56a9231fabdead9d1d631e8e502218875297a0dcb200ad"
+    },
+    {
+      "path": "drawform/frontend/public/media/lenses-blue.png",
+      "sha256": "fb1fc0b9a2c494ba34bf8ba855f1230d5561a821035de30620a98e0b13eabe83"
+    },
+    {
+      "path": "drawform/frontend/reference-manifest.json",
+      "sha256": "f9b4c85f3a5394a9019ef86198ebef5e30e49c35aa557964438426bcf9ff17d8"
+    },
+    {
+      "path": "drawform/frontend/scripts/ltx-generate.mjs",
+      "sha256": "6f70c1a6ce3f72d9b6db62fab4ec514dd7e3d24086c12faba452bae2c145b1a9"
+    },
+    {
+      "path": "drawform/frontend/scripts/ltx-generate.test.mjs",
+      "sha256": "47de2f3f4df15a15eb2d26fdce34d46d3852b07fa9b3157fbe1fab54c7378c74"
+    },
+    {
+      "path": "drawform/frontend/scripts/verify-adaptation.mjs",
+      "sha256": "eec88e13bee039a771792879ba1f10001243ca30284fb01680ebc845b9bd2849"
+    },
+    {
+      "path": "drawform/frontend/scripts/verify-reference.mjs",
+      "sha256": "6a22e1cfe575cc2fc9afad8ddaa5193c77969567baa2c8c430101567e4a624b9"
+    },
+    {
+      "path": "drawform/frontend/src/App.tsx",
+      "sha256": "af613c25d4e1c7c54efdab0049ea6000da0bf33821e2c475450d356d50906d06"
+    },
+    {
+      "path": "drawform/frontend/src/AppearanceMenu.tsx",
+      "sha256": "242d0eb70799ae97ddd865ae506e1caafccef9a9601842caaa92c844ac0d371b"
+    },
+    {
+      "path": "drawform/frontend/src/HoverVideo.tsx",
+      "sha256": "dbb7dcef84d460d72eda66628ad279528a5548d17d6ddf5191a3553d4e9091a7"
+    },
+    {
+      "path": "drawform/frontend/src/appearance.ts",
+      "sha256": "3c6077a54ef6bdff09e6babc6662e0f7099bb2412dfde96b4295afeb0a3ff2f1"
+    },
+    {
+      "path": "drawform/frontend/src/components/canvasui/LICENSE.md",
+      "sha256": "2a9a221a47f581d7984ca3a568e38fb17d5b6e43164db3f3482b4767c8e8e5b3"
+    },
+    {
+      "path": "drawform/frontend/src/components/canvasui/Ripple.tsx",
+      "sha256": "539bb65572265119b22afd74d0f1c1424a70d811575e799ee1891bd55c3660f2"
+    },
+    {
+      "path": "drawform/frontend/src/components/canvasui/SOURCE.json",
+      "sha256": "3980d93aa7eaf25097c25802fa5dd4dfaa307afe6e98721b3f1466bb00206e86"
+    },
+    {
+      "path": "drawform/frontend/src/content.ts",
+      "sha256": "902bb3065f0c0a27802628e48e230464e07ef06a265ebcf03442d39bf7ae70d7"
+    },
+    {
+      "path": "drawform/frontend/src/drawform.css",
+      "sha256": "1f866b914dcd39be9bc7e1357fccfc2c4f6b49ade0892e21c7a6ccbb236e0f8c"
+    },
+    {
+      "path": "drawform/frontend/src/index.css",
+      "sha256": "ef2524905f7d5284b75d673ad46f3424db84011b025785df2d69837c50a41e1f"
+    },
+    {
+      "path": "drawform/frontend/src/main.tsx",
+      "sha256": "5f49dce6e6cc4b5d678cf529ef892af0ab7dfa6afb300b11ad559224019b8b05"
+    },
+    {
+      "path": "drawform/frontend/tailwind.config.js",
+      "sha256": "aa63a68aeacdd9d244e920f0207f8be2efd6d26155662e89472325f7b9e2cb62"
+    },
+    {
+      "path": "drawform/frontend/tsconfig.app.json",
+      "sha256": "44efc7c82fd458eaa9d7945d2680d9fedd53944ff8fa4650b2797d599acf0b74"
+    },
+    {
+      "path": "drawform/frontend/tsconfig.json",
+      "sha256": "b6d51d37a8d51b993bd758b7043fa9233eea24d34a4041198ff73c063d9ed66c"
+    },
+    {
+      "path": "drawform/out/seat.step",
+      "sha256": "cb7cf0e18200f42a49c95baf80a933a134d3880f0697d0c0a53870b1ec1b2e87"
+    },
+    {
+      "path": "drawform/pyproject.toml",
+      "sha256": "7355cba360424c60548790a53ff9c218e69e8477bd22822f4466d31c6ebdf45f"
+    },
+    {
+      "path": "drawform/src/drawform/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drawform/src/drawform/delivery.py",
+      "sha256": "070079b1f1c7acd44571acdd655889033525830e76430340fa24d12c4c4a5900"
+    },
+    {
+      "path": "drawform/src/drawform/dimensioning/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drawform/src/drawform/dimensioning/constraints.py",
+      "sha256": "c834dd56ab3cca0d93165b29867e59295f5ab26b3110b7b35467043604e4ef8b"
+    },
+    {
+      "path": "drawform/src/drawform/dimensioning/general.py",
+      "sha256": "e01afe468b75c42e81b594ee9aa5bcf49ff79752a4753da27b8ae071ab937887"
+    },
+    {
+      "path": "drawform/src/drawform/dimensioning/place.py",
+      "sha256": "e14d74dfa3ac34ccc34d662b05694363730e22125d851239029b91593fc79e58"
+    },
+    {
+      "path": "drawform/src/drawform/dimensioning/scheme.py",
+      "sha256": "a0e45c9d50ba9027dac87d47977e79bf2c98c03f9629e3fa190b0570b97c694e"
+    },
+    {
+      "path": "drawform/src/drawform/domain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drawform/src/drawform/domain/curves.py",
+      "sha256": "d325dffca94ffa8df70301bb04190101a475f74ef3f14a942c8df31198eefb4a"
+    },
+    {
+      "path": "drawform/src/drawform/eval/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drawform/src/drawform/eval/amend_diff.py",
+      "sha256": "835d07a8a1cf38332b2090a0688cb93f57acb5a7cd29bd197f5717943c2c7687"
+    },
+    {
+      "path": "drawform/src/drawform/eval/corpus.py",
+      "sha256": "12d34e9b259dbabb42d794c9e56e2af0bd9a07f3dc35f0d45249d69a486f8c6d"
+    },
+    {
+      "path": "drawform/src/drawform/eval/dwg_roundtrip.py",
+      "sha256": "cfb5761ba983cddf408774431dd35783974a03e6f07a4aa3ebeb72289dae3106"
+    },
+    {
+      "path": "drawform/src/drawform/eval/ingest.py",
+      "sha256": "56772f3a93ac47dd191073bf619f85071d46ca0249ec59b83712853f4d72ee15"
+    },
+    {
+      "path": "drawform/src/drawform/eval/intake.py",
+      "sha256": "0569ccaf0f371db10bdbcdd80b2cf4438a871b249f56bf4da65ebe10f189c4ae"
+    },
+    {
+      "path": "drawform/src/drawform/eval/pilot.py",
+      "sha256": "c2f56383cfab42bf32ff679d068a70f6fc8b539dddacfeace50a00fe35dbc095"
+    },
+    {
+      "path": "drawform/src/drawform/eval/score.py",
+      "sha256": "728cb30de2f65bd51241153b2877f03b27210a1b296662b8dd6c4fca9960ceb2"
+    },
+    {
+      "path": "drawform/src/drawform/eval/stability.py",
+      "sha256": "70775a20da6f620d033a7f6ca6f597462c4fed5a6eead4f2cb22f94b7786a13b"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/bore_topology.py",
+      "sha256": "2eec46be95760d6bdecaaed8bc6a50a06a5103d24c44b9360a94fd3a64644f14"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/centerlines.py",
+      "sha256": "67a0f2847f3a47f3e401608a7e721e3f0df9242ab20849737c2fcd1d22534fc5"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/features.py",
+      "sha256": "a5735de1d141db2cc6e208f0ef77c3212f7f202192e6a1800ce67d9780153b36"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/layout.py",
+      "sha256": "743a3eb0a46a6f63b399d24f2707aa99ee5af3519cd040cb0080d8cb35001206"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/loader.py",
+      "sha256": "9d4ad9a6814a5eba2c62b4ab0c5639acbc690a3e726074ab2f43d927266d20e2"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/projection.py",
+      "sha256": "3dd8f2c7ef3fdb81f09974e5fc25fc60061b04c00bb0d1d9be706ef8745e5a19"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/references.py",
+      "sha256": "81b7273934a52f3ead6ed3ee6ab4d8421c948387ae6df0384ee66a36f2269063"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/refit.py",
+      "sha256": "3420744d74729059327dc63456b0cc81ae43e682934ae862c8f473f96ea25fbb"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/section.py",
+      "sha256": "58ab0f3d867aa213900ac343d148eafd54036ad5d7778cc247653fb5448d5ed5"
+    },
+    {
+      "path": "drawform/src/drawform/geometry/stepped_shaft.py",
+      "sha256": "07090749f51d8fbbef12b08be7e637167d97b4fb7cd29793d5df3bdcda8314c2"
+    },
+    {
+      "path": "drawform/src/drawform/knowledge.py",
+      "sha256": "1a2295039c7049089403240e216ff5972e22c3b77797ea268e05e65aa69b556b"
+    },
+    {
+      "path": "drawform/src/drawform/output/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drawform/src/drawform/output/annotation_layout.py",
+      "sha256": "0fe3a1fee8d79090aa4afc411cb503675d2e5014fa3599275efdc0bf66066b1c"
+    },
+    {
+      "path": "drawform/src/drawform/output/assumptions.py",
+      "sha256": "ed83a59f38b03189601a2468e3d101f8ca72af7512a3e2bd443057c9e3033496"
+    },
+    {
+      "path": "drawform/src/drawform/output/collide.py",
+      "sha256": "39d5f74de7badcbe6bc9bdfe21d0f2ef13c4e8aaa5214af267da4c706f4e63ac"
+    },
+    {
+      "path": "drawform/src/drawform/output/drawing.py",
+      "sha256": "842b837e60360c5a43c8c0e7938945269197f2748f4b1b3b9f2ee2fded2f0276"
+    },
+    {
+      "path": "drawform/src/drawform/output/dwg.py",
+      "sha256": "d5be6d37ea2544da3469e322138d6a2efbddc5333dd39822e3d026ca427eaed9"
+    },
+    {
+      "path": "drawform/src/drawform/output/dxf.py",
+      "sha256": "b865cf14ac1005c262f7380c9de2b9a96af0c04d29e0304c3b28fefe008d33dc"
+    },
+    {
+      "path": "drawform/src/drawform/output/json_out.py",
+      "sha256": "fe377e58290fbc671848db67230aba3531514151971dccbca1094576fe410bfb"
+    },
+    {
+      "path": "drawform/src/drawform/output/paper.py",
+      "sha256": "22f4c40112977c64da086fe25c235c42d3974e0ec103cef134aa1cc1c65814e4"
+    },
+    {
+      "path": "drawform/src/drawform/output/paper_notes.py",
+      "sha256": "3f8b5619422eb63f902ebf939babc3801a31db63a309c99beaa90a7a635806e7"
+    },
+    {
+      "path": "drawform/src/drawform/output/pdf.py",
+      "sha256": "3d99a432e380def5a405b42d49fe98fbaaf2a24b7faebc0650d74dc90ecb7b79"
+    },
+    {
+      "path": "drawform/src/drawform/output/references.py",
+      "sha256": "0ca4039e522f4de5012524aff61517ba30b0fe906ace8a81ed013c719b548be4"
+    },
+    {
+      "path": "drawform/src/drawform/output/sheet.py",
+      "sha256": "5566ed44c067a190ac8359ea33680b305c39f685e7fc0ba6ac5b7f398825d2f9"
+    },
+    {
+      "path": "drawform/src/drawform/output/svg.py",
+      "sha256": "d6e5dec28dc2a3a997a50b1c16cc7537d447b8ba30a021055732030d9d32c48f"
+    },
+    {
+      "path": "drawform/src/drawform/output/titleblock.py",
+      "sha256": "7828340ae3cabe89c72393fe504f8baea64b6293427109b658612ee1a09138fe"
+    },
+    {
+      "path": "drawform/src/drawform/pipeline.py",
+      "sha256": "50fc978ef483f6d40821083da5b3e08b1091e3b1d92dcc83c760c3f216f974f0"
+    },
+    {
+      "path": "drawform/src/drawform/review.py",
+      "sha256": "176823babde41db9b2ddbf1bddb9c9694f4dfe51ee1c2190d5a87a48439a0f3b"
+    },
+    {
+      "path": "drawform/src/drawform/rules/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drawform/src/drawform/rules/iso2768.py",
+      "sha256": "777e581477aaee4fe5c1b4005d373ac3ee8b5681e52c4de5801953db34ce7641"
+    },
+    {
+      "path": "drawform/src/drawform/rules/iso286.py",
+      "sha256": "727c920e774ad0a7bf6a673ce4e05abee5b3383cc2245eb5c1dadd63194e4d29"
+    },
+    {
+      "path": "drawform/src/drawform/rules/notation.py",
+      "sha256": "9d2b98f1f77a7f84ddfe4fac0ddb6bccba2500a0017fe84c087a47e5cb6f426c"
+    },
+    {
+      "path": "drawform/src/drawform/rules/roughness.py",
+      "sha256": "78cf2bc41f2170a020f5cd889f1ece9a314ad615574b0a0b82d0ee1b4213e92d"
+    },
+    {
+      "path": "drawform/src/drawform/service/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drawform/src/drawform/service/__main__.py",
+      "sha256": "a20f462f55dac751115decfd5cd7cc734a7412bd7975185a1c0fd6fd56db7475"
+    },
+    {
+      "path": "drawform/src/drawform/service/answers.py",
+      "sha256": "8826a5d92b72497a31d2cd5e1d833f12c5157db10cdfe8f93285298fefb97d2c"
+    },
+    {
+      "path": "drawform/src/drawform/service/app.py",
+      "sha256": "aec3c53f9000f2bb082249ef46675ffcd7620419a95eb3694cec3e787b07d83d"
+    },
+    {
+      "path": "drawform/src/drawform/service/frontend.py",
+      "sha256": "56459c7be1b3021a9a9c8ab4dd99e60ba9ea84ae495a83bbf0eff918ef0215cb"
+    },
+    {
+      "path": "drawform/src/drawform/service/interaction.py",
+      "sha256": "1c342e48bd90f87709c6a05bac1173f0ad1572b7e54ab1dd5b8fe42a02750676"
+    },
+    {
+      "path": "drawform/src/drawform/service/jobs.py",
+      "sha256": "844327887a476a7a20c9eeee7015303942d941e6c4fabc8955bb1d44093c1067"
+    },
+    {
+      "path": "drawform/src/drawform/service/journal.py",
+      "sha256": "1d3a7454d4c226eeebc2a055d6f14ef19203601493e7351dee875e6f7e9e16c4"
+    },
+    {
+      "path": "drawform/src/drawform/service/maintenance.py",
+      "sha256": "b7f9d6a57c113d2e156c1b03d2a99362c9c223e980c358283faebc2a6bf8ae5c"
+    },
+    {
+      "path": "drawform/src/drawform/service/operations.py",
+      "sha256": "327d5de6175722ebe8714fa4f0ec2a3b3ff54e1ff14d0c762c52f53f001f1f57"
+    },
+    {
+      "path": "drawform/src/drawform/service/policy.py",
+      "sha256": "22bb1317643e40cc5d2848ea183d946c18c309674e1cfb0bd4a57172d70abbb6"
+    },
+    {
+      "path": "drawform/src/drawform/service/production.py",
+      "sha256": "c7663f51e175d03fa523393725ec13a0dbd1927349357d2fe23addfbd5ba3030"
+    },
+    {
+      "path": "drawform/src/drawform/service/questions.py",
+      "sha256": "8babe43262e580422a0a095d8949018a09a069f048ebb0275554d66f1110af2a"
+    },
+    {
+      "path": "drawform/src/drawform/service/retention.py",
+      "sha256": "2f1ded2e5988c1b61c69513874d9cb7450a17f2f6b5891e546a1b9431bac432d"
+    },
+    {
+      "path": "drawform/src/drawform/service/workspace_style.py",
+      "sha256": "bbf7fc789277ba2db8327889e3d000021b8ba8846d2e029c3951624ac3f05e58"
+    },
+    {
+      "path": "drawform/src/drawform/service/workspace_theme.py",
+      "sha256": "e36f76044c2c7e930db237826c065ecb4705ef0475475edade76841474265913"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/__init__.py",
+      "sha256": "f10d96d8a4ead0270b01445eee61c4f958c091be2f3dcc6a916651d368061688"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/api.py",
+      "sha256": "1e4f11a738d1b396c816aa2ae0fb70d58b21953c1054d86a525c56650272aead"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/attempts.py",
+      "sha256": "d1658a82d758ddc86beb29b6d70de12a35eb48f278d89a9d825fc8ca150430b0"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/child_guard.py",
+      "sha256": "0e343fa7a810b03f2ef7f8ea04c300d6ab6d3b1f655093591ad3c004290434b8"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/clarifications.py",
+      "sha256": "897ef6446cecf55cfaac191b924698949e506ec514702fd38d19870fb1685367"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/drawing_intake.py",
+      "sha256": "62aad03e2f831e9e96670c1f687e387ca20f9325584787704fa6ed5c7b3524cf"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/drawing_workflow.py",
+      "sha256": "11d844e9b655c55f6cb95b5f94ff8e7fa896854a63e22a09c862b902b7c2c7ef"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/inspect_plate.py",
+      "sha256": "66539bbc896c71775cec34390306819e8dacf3284b305a59c35f31698ece002f"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/inspect_simple.py",
+      "sha256": "13bbd9c6b2e7d30071a6548c8c2dbaefa94c20c0a5b6763f22f120cf82d374b3"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/modeling.py",
+      "sha256": "cb456b2eec35747fda74078854feaf574586d50f226efbc3732170c747671a35"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/page.py",
+      "sha256": "65c8b80a6d321def56d2b22050ba5ed392d412ad9a5be548e30c5feadd294d3c"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/paths.py",
+      "sha256": "e8116490305fba7c1de1b705ab14b2384983c90a83af479b3640005eca5f1044"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/plate_spec.py",
+      "sha256": "884c1c52515e8d6e9b7d39d1f71ad28cb3137e35125bb397510f48a566eca5c0"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/project_package.py",
+      "sha256": "59bb9a2d202a8c8473bbbf73b1eb67b489ebf55e1c1389ba97576526557d6158"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/projects.py",
+      "sha256": "016c0b0f35a3b8f089ed24e326c7d2681f715e2c6ae193beacb52fec76f0fe71"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/recovery.py",
+      "sha256": "9a83d23956f0207797df4ed98e0860006de727d0292a6e7ef3de6995a0f6ee50"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/revisions.py",
+      "sha256": "2a114a642ef8a930656d5c30f15e77c19e3b98d79f806572291c3fa486bf5bd9"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/shaft_input.py",
+      "sha256": "3a6117f0968c46c6635a73a09c433cd234dba57426690cef832f7a48e47ce706"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/simple_spec.py",
+      "sha256": "5c16e01294aec2b29337629556f77b5eba748aea3cf8fe9dd62f0c7850226bb2"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/text_intake.py",
+      "sha256": "2b2c9b12a21b62b2a6214aa4154685add1e0c8734b39b30fc248ae52ee759c22"
+    },
+    {
+      "path": "drawform/src/drawform/workbench/text_simple.py",
+      "sha256": "9ca952881d1b1784584dd1cc51ef7c9fc9b0846524c0b344f66c112ea3f276f2"
+    },
+    {
+      "path": "drawform/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "drawform/tests/browser/answer_annotations.mjs",
+      "sha256": "365711fc88a58ebe8855f32a7c4778dcf036abf3a2ffd54128d7ea7ec169aab2"
+    },
+    {
+      "path": "drawform/tests/browser/frozen_notice.mjs",
+      "sha256": "360d0c54a17462153a67449f3ecf7e003a5e9755f635ef9f5235c51181f2ceec"
+    },
+    {
+      "path": "drawform/tests/browser/interaction_workspace.mjs",
+      "sha256": "bde0bcc2454d0b4bcf98c4cc2f6795f94324541c11f456175a34ba067d12fed4"
+    },
+    {
+      "path": "drawform/tests/conftest.py",
+      "sha256": "f3e08371c0a90830f907813f73680e785f5113013cfdf287d12843f58b71ed56"
+    },
+    {
+      "path": "drawform/tests/fixtures/NIST_SOURCE.md",
+      "sha256": "fdfe80ffafdcf0cf01dcd3405e1d9eb5c4b13f964b46a50f169360b3775e8cdc"
+    },
+    {
+      "path": "drawform/tests/fixtures/nist_ctc01_ap242.stp",
+      "sha256": "85a5752da05f53c456ca3a9e038c90358e1d5a3141d1f0d6e5f0970f2356e821"
+    },
+    {
+      "path": "drawform/tests/test_adaptive_note_layout.py",
+      "sha256": "2894989deca32370e5f3ad650baddd4887ea1ee51dff09e3c596957b0702f745"
+    },
+    {
+      "path": "drawform/tests/test_aligned_dimension_regression.py",
+      "sha256": "dbdd901826beddab407fe18b0b388be5707ef2f2f53446c4ae453fc85b041d2f"
+    },
+    {
+      "path": "drawform/tests/test_amend_diff.py",
+      "sha256": "0ca0dbb6d90ccb6867a0730fc5ab8bbb7b5638e1975e53ce35683627367b98c4"
+    },
+    {
+      "path": "drawform/tests/test_annotation_layout_regression.py",
+      "sha256": "f5518d3bcc0bd5376180090008c9f74d83be7eb35861dc12ac63d197bff30f7f"
+    },
+    {
+      "path": "drawform/tests/test_answer_annotations.py",
+      "sha256": "1b7d904d0b5484a70e759a51d3844b6d665283b7257a29b168f73e3e41276f1f"
+    },
+    {
+      "path": "drawform/tests/test_answer_conflicts.py",
+      "sha256": "92427dea03bbab1fa5b70b933407557e120ff41abbf1bb6f84570b29cde9e694"
+    },
+    {
+      "path": "drawform/tests/test_answer_consistency.py",
+      "sha256": "c5746841cd5e72d91116366379e114f2f13856ce6b6accabac37b49c316d843d"
+    },
+    {
+      "path": "drawform/tests/test_answer_idempotency.py",
+      "sha256": "72756644bd815ac17bdc7df34eb657b8e3acedd8f1655bdeca84098e8d101b66"
+    },
+    {
+      "path": "drawform/tests/test_answer_layout.py",
+      "sha256": "d255aaff47c55e5f1e15b2e5a5269941032a02d59b5ba8f84ed26617dc1a2c06"
+    },
+    {
+      "path": "drawform/tests/test_answer_rendering.py",
+      "sha256": "9dab5ead3936d3941da1d6672ddf7019dbd9ad51a2ae13e0d1af5858ad17cf3d"
+    },
+    {
+      "path": "drawform/tests/test_answer_unknown.py",
+      "sha256": "78e0d3ebc05188f0b5c68ea25a8368852a0211eb0baa6cb5d1b745eee59c0e62"
+    },
+    {
+      "path": "drawform/tests/test_answer_versions.py",
+      "sha256": "9da6328d41387ba2da5c759d6bc75aea8a82d4eb98afc495535cfb553596a665"
+    },
+    {
+      "path": "drawform/tests/test_answers.py",
+      "sha256": "8d2245ac3d467657321a29e0eb4e8ce92eaa7f928dfd181a4908fa6945b4cb04"
+    },
+    {
+      "path": "drawform/tests/test_assumptions.py",
+      "sha256": "64dfea1c5b9fd57d5bd307e826b13bd3daa3c565d4ff6e24149ee41d6b184e5e"
+    },
+    {
+      "path": "drawform/tests/test_asymmetric_score.py",
+      "sha256": "863a457b086d8a882c96742e0db8ae0937d4a76e21ab2c1883a1a27b2f85e60b"
+    },
+    {
+      "path": "drawform/tests/test_centerlines.py",
+      "sha256": "6c88161ee420fc6c90995268ac9891b5c11f0a7a46cfde172e375bd5c0a64afe"
+    },
+    {
+      "path": "drawform/tests/test_child_guard.py",
+      "sha256": "bfb39d5d1856032fba70c3f67a631940eccfcbb6837ef14c2ff64bd6fda08f56"
+    },
+    {
+      "path": "drawform/tests/test_claude_audit_regressions.py",
+      "sha256": "8ea981587f5918c9f698d7fc512b1dd11f43c8c82a46530f913918c1d7859923"
+    },
+    {
+      "path": "drawform/tests/test_collide.py",
+      "sha256": "9191e1283b9272a4c86a5d8ca739bd40cf2219ef242fd4275a7a21b86b79ea61"
+    },
+    {
+      "path": "drawform/tests/test_confirmation_warnings.py",
+      "sha256": "56bd6ef3fb77bb602331bd8f8668bb4237324c4b3f9a2f5e346d04b620e473b0"
+    },
+    {
+      "path": "drawform/tests/test_confirmed_operations.py",
+      "sha256": "08b95f733bb93d64732913dc269442a70742c8b90f9a503999aed3b736a26c32"
+    },
+    {
+      "path": "drawform/tests/test_confirmed_pilot_policy.py",
+      "sha256": "864b883af7abebe69c3e61a3cdb77c3625c800cddd94c51a5dd13b169bce4ffd"
+    },
+    {
+      "path": "drawform/tests/test_confirmed_retention.py",
+      "sha256": "1e22e52f530001d7192cb1eb0c266d9e1ec479b12115393b7eb80102549da29f"
+    },
+    {
+      "path": "drawform/tests/test_constraints.py",
+      "sha256": "9c607b1bedf98da68dfcf6d021cdd7918ed5117f247d81d63fd46c60da502328"
+    },
+    {
+      "path": "drawform/tests/test_corpus.py",
+      "sha256": "4f9904eb7862b4696cfcaec9a4bb59e544f44dba450722323d3ab1b3edd445b5"
+    },
+    {
+      "path": "drawform/tests/test_corpus_regression.py",
+      "sha256": "628f741dd43b726f8935d879c707d3b0b21202c84203d60a4702032c71533cda"
+    },
+    {
+      "path": "drawform/tests/test_counterbore_topology.py",
+      "sha256": "a2c35dc2f3d517356cddb262aca28f73b71fcf8af925b6c0500910e352fe21e7"
+    },
+    {
+      "path": "drawform/tests/test_curve_extrema_regression.py",
+      "sha256": "6949d61b90d107527bae69a067af5cbb8d64cc19b040225ac25cbe22f4d4cada"
+    },
+    {
+      "path": "drawform/tests/test_datum.py",
+      "sha256": "b8d015c4131ed57ba9381766eba4cae1e23b8d4a80e95530e28a3b6a19debcbe"
+    },
+    {
+      "path": "drawform/tests/test_delivery.py",
+      "sha256": "899b9d2dda1f02225d81729af6a37d7a785ff1d63e8d6c2888d2bce6266527b8"
+    },
+    {
+      "path": "drawform/tests/test_dense_lane_routing.py",
+      "sha256": "58ed37d04feb6c540c58b5982aa9672fbaaa3fd522786d264d385f110e0992bf"
+    },
+    {
+      "path": "drawform/tests/test_diameter_source_binding.py",
+      "sha256": "b648291d17e6bf92f0f7c165ef07629b97613e5df59dc1b30043f66ef8354c42"
+    },
+    {
+      "path": "drawform/tests/test_dimension_geometry_safety.py",
+      "sha256": "d62e1a9c297ffe615e1cc3aaf20f869dbfdadf2943b99ca055da7ef2f43802ad"
+    },
+    {
+      "path": "drawform/tests/test_dimension_measurement_gate.py",
+      "sha256": "025a5856f54f6bcd50ce32f45ae1684bdd4274fc307562116b87d059a874639a"
+    },
+    {
+      "path": "drawform/tests/test_drawing_intake.py",
+      "sha256": "9abcfd11129f095ec922e9e94b97a5920c72da4544cbd1e4d61ceef4d08f4fc6"
+    },
+    {
+      "path": "drawform/tests/test_drawing_workflow.py",
+      "sha256": "cbce16d388d595ab1e2fdfc6fba9af3a29ee43038eac437f77c2628c8b0d6fea"
+    },
+    {
+      "path": "drawform/tests/test_dwg.py",
+      "sha256": "15d4f3bca501d2a4fb9e2b5b3a00882e84e725fa0020ef379c2d17a175b0a36c"
+    },
+    {
+      "path": "drawform/tests/test_dwg_roundtrip.py",
+      "sha256": "0e5364d04c8c741e58cc7421d634b7951a8461842c8397bc95c75ebc1b3fc7bf"
+    },
+    {
+      "path": "drawform/tests/test_dxf_class_order.py",
+      "sha256": "2e2003ba9ba24fbe71951891a61fd9bd3b35d9c31709945e5cbbca464dbf077b"
+    },
+    {
+      "path": "drawform/tests/test_features.py",
+      "sha256": "9aecb2da51902552af92432962d1d34aaf6c5fba658287399ebe8f0414d209b1"
+    },
+    {
+      "path": "drawform/tests/test_frontend_shell.py",
+      "sha256": "83dae8a1641b648a4b4abbef7522e5f077adb56c38d695d3358293f6457a31d7"
+    },
+    {
+      "path": "drawform/tests/test_gb_frame_delivery.py",
+      "sha256": "6cac3d35d0cc6a42b76ab40b71371830bd8089583cf0ab1ca8f5d06baef9d76a"
+    },
+    {
+      "path": "drawform/tests/test_general_rules.py",
+      "sha256": "deb176b31b2e85482674825ff9aec5460a06e343f1a2c5d92a56be94ada164f0"
+    },
+    {
+      "path": "drawform/tests/test_general_tolerance.py",
+      "sha256": "59ac05234f0654abeb88192aab7022ca02a3e769a6f1bbe852e693a057d21a49"
+    },
+    {
+      "path": "drawform/tests/test_grouping.py",
+      "sha256": "639893c18fef982e8046cdc282caa3935f846f82edf0f43888c2cda4c2d24c15"
+    },
+    {
+      "path": "drawform/tests/test_ingest.py",
+      "sha256": "cc89cc0d7a0ee5352a05f8fc496ec6b735e01749d938d32ac02b7e47828f93e5"
+    },
+    {
+      "path": "drawform/tests/test_intake.py",
+      "sha256": "3e00085db239c5b7fa1704ba9c38930dd03321ad627ddd638ed34eeefeb399cf"
+    },
+    {
+      "path": "drawform/tests/test_interaction_async.py",
+      "sha256": "4236eaa6bead62e4be0e2c573fc139420c9cfea87a876fe7e22ffb61390aa2d3"
+    },
+    {
+      "path": "drawform/tests/test_interaction_workspace.py",
+      "sha256": "6986482844fedbbcd8d16b65a924dc0fd200de5d512d74e2d7b4410d526a1d5c"
+    },
+    {
+      "path": "drawform/tests/test_iso286.py",
+      "sha256": "8010b2f069bf7b7515d43d0ace26ff55aeaf86293e16a93c611fea466c2dce7f"
+    },
+    {
+      "path": "drawform/tests/test_job_paper_selection.py",
+      "sha256": "dff0b2e493ee5d2b5da052e37e354e37db7eb9ed4b34639a3b9610df8623aeb3"
+    },
+    {
+      "path": "drawform/tests/test_job_submission_once.py",
+      "sha256": "657b683cb04bbfcfa324e7cb89bb3fb6e2272ca79324a279785d5b2b1b12344d"
+    },
+    {
+      "path": "drawform/tests/test_jobs.py",
+      "sha256": "60b584827a8e28234e9c52f7ce45c430bca5ebe2a137af035bacf8f678ed50c8"
+    },
+    {
+      "path": "drawform/tests/test_jobs_persistence.py",
+      "sha256": "eb4637049773de163c7c553299e873aec343a54d3ddb4de467b5e49406925651"
+    },
+    {
+      "path": "drawform/tests/test_knowledge.py",
+      "sha256": "4adeb72d0cac5f2d5d2b50b2898ac354cb3c22464a6afd8e95bfda94eb50a97c"
+    },
+    {
+      "path": "drawform/tests/test_layout.py",
+      "sha256": "671db3093babd4f333cb514e20d9a4e71b76f912323515ab6a6a25792a4c2a67"
+    },
+    {
+      "path": "drawform/tests/test_leader_route_visibility.py",
+      "sha256": "b3c9861bb0ae2e99a711acaf07370b069ebdbec204d54e61d3f65abd871210b9"
+    },
+    {
+      "path": "drawform/tests/test_legacy_publication_journal.py",
+      "sha256": "7ed0b56d8d41e67b7dc541398de967e3de799e4315bd3027efdd8eeb431618b7"
+    },
+    {
+      "path": "drawform/tests/test_live_answers.py",
+      "sha256": "523bd1fb721c258f8ed0e18a02f84e192737441999adfd0aea2ca5d3107e8ebf"
+    },
+    {
+      "path": "drawform/tests/test_live_questions.py",
+      "sha256": "2cb21d5b1cd4a934d0823ed162646031031b3c8e9313f52034afeaab37c8e41c"
+    },
+    {
+      "path": "drawform/tests/test_loader.py",
+      "sha256": "d9ec2a64ca7b11f96939856489f122e6f93e8eabeebb4f9444fd5ec7369c7c0d"
+    },
+    {
+      "path": "drawform/tests/test_local_deployment.py",
+      "sha256": "9b05550cc4de93d85ef9b2667ca9ec44e582f11399453fe79d07e2e4d9346820"
+    },
+    {
+      "path": "drawform/tests/test_local_maintenance.py",
+      "sha256": "31d9d407564b9c8c0726779d201f8d69497bad1b30ab934045038df064690ae6"
+    },
+    {
+      "path": "drawform/tests/test_maintenance_audit_integrity.py",
+      "sha256": "a76877c4feda1d31199929584c3654f2661399bb38ff623be9745aeed2ec9b21"
+    },
+    {
+      "path": "drawform/tests/test_maintenance_interruption.py",
+      "sha256": "2d54fc5bc35fb0f4aa353590659df4cb472bbf3fd753becd5b0e84852caf8346"
+    },
+    {
+      "path": "drawform/tests/test_maintenance_missing_outputs.py",
+      "sha256": "33ddd42f4358943e753adef90385ceb27cfd0bf4dc4271afc21bdee9449ea0e3"
+    },
+    {
+      "path": "drawform/tests/test_material_projection_support.py",
+      "sha256": "e109d8bf59bd6719f56e577dc9de1bb7049611d58f1aa1ae7d79e081eacd70e3"
+    },
+    {
+      "path": "drawform/tests/test_material_scope_regression.py",
+      "sha256": "c60d7069d4df2ffc562d7509bbfc81ab697565a26e52645a99e3c93ff2b84eee"
+    },
+    {
+      "path": "drawform/tests/test_model_attempt_control.py",
+      "sha256": "8d63964c6cc073835805485f198db2338b2bcf199081dcc796bdfebfe7d4d81a"
+    },
+    {
+      "path": "drawform/tests/test_model_resume_recovery.py",
+      "sha256": "11646684f4052b5c31210735e4874b823ed08f53738992b331ded9fea5df0d70"
+    },
+    {
+      "path": "drawform/tests/test_model_revision_control.py",
+      "sha256": "0e3900cbbf7d1b3fef7d927127b4549e31f4398dccea53a424692f530d306f78"
+    },
+    {
+      "path": "drawform/tests/test_model_revisions_native.py",
+      "sha256": "5fb26bf5f23bec54d2e048a5a222822e4231ae5d1f7ea567fe87acb28def946b"
+    },
+    {
+      "path": "drawform/tests/test_modeling_first_loop.py",
+      "sha256": "9691976f5c01889aa726716b921931310e8e006e25e4ef00328c2f0206e4e669"
+    },
+    {
+      "path": "drawform/tests/test_notation.py",
+      "sha256": "4d0227ba313b4fd7ded13430444c4c7948720d90e87741721f86eb76b6c28e7d"
+    },
+    {
+      "path": "drawform/tests/test_oblique_bore_placement.py",
+      "sha256": "e1c70e4c477804d4713ecfd009102fce223cdd1da0918aa1078723eb7fb2a5e6"
+    },
+    {
+      "path": "drawform/tests/test_output_dxf.py",
+      "sha256": "690eb2792f93541ba12c67d270f8e15d007d0f80c0ff41ca22b61c7662709ae3"
+    },
+    {
+      "path": "drawform/tests/test_p0_freeze_dense_replay.py",
+      "sha256": "b5162f34736f32812958bce434d2738fa50a28413bb56ba126d492a4a65f2e69"
+    },
+    {
+      "path": "drawform/tests/test_p0_freeze_projection_witness.py",
+      "sha256": "aa25d7f633ea2ec8e7c766ab9f0be928df645abad3dcc6a52f06f943c35f4428"
+    },
+    {
+      "path": "drawform/tests/test_paper_geometry_bounds.py",
+      "sha256": "312a45ca92d2b1ee3d7b75870c319dea9b9ac74d2d099310710af6fe961d3a54"
+    },
+    {
+      "path": "drawform/tests/test_paper_notes.py",
+      "sha256": "2a9d573f58dbd9bc603e883edba9d0eba4a7ab4ecb25875d5606f38f9286ab99"
+    },
+    {
+      "path": "drawform/tests/test_paper_scale.py",
+      "sha256": "f823f6f388be0aa951ace3109359bef94fe624a5660d1d78dc51108115490bac"
+    },
+    {
+      "path": "drawform/tests/test_pdf.py",
+      "sha256": "2fc57a2112783e05c6978ea430442f9309c1c8fbfa8b375a0950b8e1799200b6"
+    },
+    {
+      "path": "drawform/tests/test_pilot_evidence_backup.py",
+      "sha256": "5232c203dbe5fa560842f6c7d3e59fa8d272c8c924be39788ca87691519943ff"
+    },
+    {
+      "path": "drawform/tests/test_pilot_records.py",
+      "sha256": "6a23dea980540ea3f3b82fad88387d6070dc9a828ff13fa3d263e073cc9e6457"
+    },
+    {
+      "path": "drawform/tests/test_pipeline.py",
+      "sha256": "83328f88c873af6fd7fae2a80706a12c521f917207cb6fa93d6ced39f8fb18c5"
+    },
+    {
+      "path": "drawform/tests/test_place.py",
+      "sha256": "dc1e89c67d1e5c3ceaa2e2c0e04af5d91bac7f0c537d33b1383933f7f0e8e2b8"
+    },
+    {
+      "path": "drawform/tests/test_plate_runtime.py",
+      "sha256": "35ad2e5192644472dbb1f9e0b62b4bc347b5add0471701b059734652c595bcc5"
+    },
+    {
+      "path": "drawform/tests/test_position_reference_consistency.py",
+      "sha256": "8355c67579099692dd44fae922047ad9a52f5835b8d819c9ff369e05017ec840"
+    },
+    {
+      "path": "drawform/tests/test_position_view_precision.py",
+      "sha256": "981cf1d0573a20a3b1cd118baa25b0700879268755dfb2fa86080ba9586a3165"
+    },
+    {
+      "path": "drawform/tests/test_pre_reference_geometry.py",
+      "sha256": "3dd534877ca35c3445fe6a7b62276d3127077306cb26e3cea54d69d18f29c943"
+    },
+    {
+      "path": "drawform/tests/test_pre_reference_presentation.py",
+      "sha256": "4607520ed51276b8fb8affc4f80a3f30535bafbcfbc51ea096c717eadf48215b"
+    },
+    {
+      "path": "drawform/tests/test_pre_reference_service.py",
+      "sha256": "e1e0f03b356b01950408aef6a7e7d77370c2bfb38126859ac42d1a8f2c185ee0"
+    },
+    {
+      "path": "drawform/tests/test_project_jobs_integrity.py",
+      "sha256": "52192a49efeaaa696217e0421ac81deefbeb633f786de48fbf743ef866349e8b"
+    },
+    {
+      "path": "drawform/tests/test_project_lifecycle.py",
+      "sha256": "e7169b2809c205cb3d953b15653fb1ffa9c77da25a016e23a1f24b49bb907f48"
+    },
+    {
+      "path": "drawform/tests/test_project_recovery.py",
+      "sha256": "58ce6884d26b98bab94963a7d31882fbc61f6888000fc6f5314e6c809fbd11ed"
+    },
+    {
+      "path": "drawform/tests/test_projection.py",
+      "sha256": "b79b2f8e85120cd2860cd90cbff24b9ab3838eabee8b5c7894584fb171a2e855"
+    },
+    {
+      "path": "drawform/tests/test_projection_fidelity_regression.py",
+      "sha256": "e91111ae4ac82147faec8b44f6c52f4ccd71c287452ff4893798df2b6f5ed412"
+    },
+    {
+      "path": "drawform/tests/test_public_layout_regression.py",
+      "sha256": "87f8c55dd15abd5e357011b5a86e0b2b7fee25c703532c91f640e882bce923d3"
+    },
+    {
+      "path": "drawform/tests/test_public_step_validation.py",
+      "sha256": "c23c10a9f76929e7e9bd3db0485e95b470acd5bb08229ed5fb127b57a7bd0f1c"
+    },
+    {
+      "path": "drawform/tests/test_question_cards.py",
+      "sha256": "2c3c537fb54acd521fef51ce6a7763b749e3461f2e3a13217b9595eccf5d8384"
+    },
+    {
+      "path": "drawform/tests/test_question_conflicts_page.py",
+      "sha256": "1579d1c140c3c9856ac8e20166e565c0362a448831c3658d61fd9e79bc6cab5c"
+    },
+    {
+      "path": "drawform/tests/test_question_keyboard_page.py",
+      "sha256": "149503c8379b1591586d48a26da3c39304bf743cc0d06b74d5ab5351b55324a0"
+    },
+    {
+      "path": "drawform/tests/test_question_page.py",
+      "sha256": "7b737dbb941dc14a580112fa5b0c22c417effb62e03582ab1ed28f547c1baa89"
+    },
+    {
+      "path": "drawform/tests/test_question_states.py",
+      "sha256": "abe06f0145b2f0579aaaddb8fbb72c072f45b0791bb27a3a62be79a9eea6bef9"
+    },
+    {
+      "path": "drawform/tests/test_question_versions_page.py",
+      "sha256": "35335dcfa4a4a97f637342a2805d8361c112cf31bc995485f89c1163deed5122"
+    },
+    {
+      "path": "drawform/tests/test_questions.py",
+      "sha256": "2d02480810a19a308346758c32770d8d9dcababb1820ab130378c7ebcaca5398"
+    },
+    {
+      "path": "drawform/tests/test_rapid_choice_threshold.py",
+      "sha256": "437d340cd7277dd7f90ee69bdf7ecc4b1b48980e44ee32f962a8e8d33df8fb52"
+    },
+    {
+      "path": "drawform/tests/test_refit.py",
+      "sha256": "736d311f7b69682fac1212ff1281320ceb1e2ec294094eed78887471de88237c"
+    },
+    {
+      "path": "drawform/tests/test_relative_work_directory.py",
+      "sha256": "8603c188b739985759f13fdf0d6a92328d9ded168c0031631760652aafa7beb6"
+    },
+    {
+      "path": "drawform/tests/test_review.py",
+      "sha256": "703857a376891765cfec52dbc18038afb07c6e5b87eae593b9af202911dcf499"
+    },
+    {
+      "path": "drawform/tests/test_scheme.py",
+      "sha256": "8d1a23df28f7f83aa511326088bff0fbc5c252143714527d236fac0b09b9c213"
+    },
+    {
+      "path": "drawform/tests/test_section.py",
+      "sha256": "2c0bf739ca090203fbf48adbaa59e493a0f2ac4fa40aa929e831337a1e0beb81"
+    },
+    {
+      "path": "drawform/tests/test_section_fill_regression.py",
+      "sha256": "ed89baf918c9df436228fc597d52eea909a09427e0dbe4650204187d9e4b686c"
+    },
+    {
+      "path": "drawform/tests/test_serial_stability.py",
+      "sha256": "8ec3ce77c079ed77cfd1c56e154b79ebca44ee573a20fa240393d4911d4e1319"
+    },
+    {
+      "path": "drawform/tests/test_service.py",
+      "sha256": "fbd4e9bebde53d8a5389ebb02c780aad7f0c0622413f70325a4f6f2fed83b325"
+    },
+    {
+      "path": "drawform/tests/test_service_auth.py",
+      "sha256": "1bc8c008280e21b71b1c5598f55b867be849917aa615343e21d646d963fc1d46"
+    },
+    {
+      "path": "drawform/tests/test_shaft_intake.py",
+      "sha256": "3cc1b09fd0cce516809a18eda6d243a681d3ad2f6d4e14a50058eb0bf0a3019d"
+    },
+    {
+      "path": "drawform/tests/test_sheet.py",
+      "sha256": "4814d188d7128e6f1e4cc890aa49ef25d863dab21a61042637f81f5b0e4cb0fb"
+    },
+    {
+      "path": "drawform/tests/test_simple_runtime.py",
+      "sha256": "f71edd34b9a2a467598e8ab397b3b34930a4369d017ef6397d0434809f31f2ff"
+    },
+    {
+      "path": "drawform/tests/test_single_solid_entry.py",
+      "sha256": "c72cd10d25fe3e9311dfd5499469ef1db21d94955cf8a46a093ecbe2a688cb90"
+    },
+    {
+      "path": "drawform/tests/test_slow_polling.py",
+      "sha256": "2aed7c7579d2090a27d805a3eb332ddf89afba5b37bde8e6a824146681addd3b"
+    },
+    {
+      "path": "drawform/tests/test_stepped_shaft_control.py",
+      "sha256": "bffa008e3f28474108f3f15d29f6393aaed866a613e26ee747fbd920a756ba9d"
+    },
+    {
+      "path": "drawform/tests/test_stepped_shaft_drawing.py",
+      "sha256": "1a3298c601f02ae3b20d64bdacea7862f46948b36af832829e62a4d2ec61e2f8"
+    },
+    {
+      "path": "drawform/tests/test_stepped_shaft_native.py",
+      "sha256": "f1ba4bebe3a003d7b382490a69c53a9f7ab2d5f437da751f1d9dd5e6e297d29e"
+    },
+    {
+      "path": "drawform/tests/test_stepped_shaft_runtime.py",
+      "sha256": "bda8e4a603ce8ce32ce19e929353e4974f63164386fde53da8464859d64f5ed3"
+    },
+    {
+      "path": "drawform/tests/test_stepped_shaft_spec.py",
+      "sha256": "15e9479cc4045c05f615de8cfd9f8f90a00c6100e36f63fc3f0c67fcb6dfbb30"
+    },
+    {
+      "path": "drawform/tests/test_svg.py",
+      "sha256": "1a8673726fc8139343264f5f5de7ebfec5e8a8efbf3ee668f928c1833e315974"
+    },
+    {
+      "path": "drawform/tests/test_text_clarification_control.py",
+      "sha256": "195773f729ea93efe179f7ba7a29cd746e97f7707e82663c7d2e40022dc47be0"
+    },
+    {
+      "path": "drawform/tests/test_text_clarification_native.py",
+      "sha256": "b8ffc08aceb756061ef74373e3c2489cc5f2df16442f66330eefb31c0438cdcf"
+    },
+    {
+      "path": "drawform/tests/test_text_intake.py",
+      "sha256": "0c001490f2034cecad0e8631879b066c6b6da00f01336dabadc3530ab3cb5479"
+    },
+    {
+      "path": "drawform/tests/test_text_simple.py",
+      "sha256": "ca6ab67b793dc859cb80f8f64ab28e656d7e758b045598341d735845ac365e76"
+    },
+    {
+      "path": "drawform/tests/test_title_block_fact_freshness.py",
+      "sha256": "f8481dea6768e26bdee0909999d27ba295e01015e2838c61c70cb99c1733a197"
+    },
+    {
+      "path": "drawform/tests/test_titleblock.py",
+      "sha256": "3f1eb5d6914bcf0399ef0448e86b7fd0f31b38d608b545cf320b680d3d83f099"
+    },
+    {
+      "path": "drawform/tests/test_view_annotation_spacing.py",
+      "sha256": "f56eca3978ba0d71f27e53a88d87fff67f7d49ef7d520610a8325ab1219a687f"
+    },
+    {
+      "path": "drawform/tests/test_view_marks.py",
+      "sha256": "bacb5fba6d4ff7063547c23d21ff61260d8d919fad43787b2848266fbd3c55e5"
+    },
+    {
+      "path": "drawform/tests/test_walls.py",
+      "sha256": "05ca1900544cf4cce4002185e9a2ae249bbbdd2942f06c409b5f88151365c338"
+    },
+    {
+      "path": "drawform/tests/test_web.py",
+      "sha256": "cb7c3a5fe950768329f6df995113611feeade621c4682dc15634f76a5253c05a"
+    },
+    {
+      "path": "drawform/tests/test_workflow_recovery.py",
+      "sha256": "8e72ecf13b8f23cb93a0348cacb19c33cda4a08309d77a85171326e2b7b58a03"
+    },
+    {
+      "path": "drawform/tests/test_workspace_theme.py",
+      "sha256": "002309567a08dd98d70c92d7b1cd49a1c3b8e3087bb7db41e7a4441d68f1a212"
+    },
+    {
+      "path": "drawform/tests/test_workspace_views.py",
+      "sha256": "c2695fe010bb0a34746846446951251ac0c374d73a191aacd3d2abf96a948542"
+    },
+    {
+      "path": "research/build_eval_set.py",
+      "sha256": "c51036684a0245feccb954c1e055e821b0f8069ffc92d9195bbfbe6fb3e2ee4b"
+    },
+    {
+      "path": "research/check_dwg_roundtrip.py",
+      "sha256": "77f95243421c2f49008dd55e7a58f41c54e6b943f5510b2cfe02dcacad4e8fbe"
+    },
+    {
+      "path": "research/check_intake.py",
+      "sha256": "4e6738be91611700362a66160e37ac4219d5bbf847db1684d35a2e64932ad01f"
+    },
+    {
+      "path": "research/eval_set_30.json",
+      "sha256": "7cdd128032117c807446123a87fa554c4656766a761a4d771006ce4303325dfc"
+    },
+    {
+      "path": "research/measure_corpus_baseline.py",
+      "sha256": "3e635fb49a567ed8d13a7ac88a59724322a98587f04f446f7780032a64722760"
+    },
+    {
+      "path": "research/measure_public_control.py",
+      "sha256": "cb2743acee90f7792e14b70ac9944e24837d6f08f3f09316ee287bbddf303851"
+    },
+    {
+      "path": "research/measure_sheet_collisions.py",
+      "sha256": "6df12839b89e4d3ecb2482fb5bfaad5217a17324040683ac21cdedd5a61a6820"
+    },
+    {
+      "path": "research/measure_stage_timing.py",
+      "sha256": "69a8414b91e39d19dd4fd65868117d24fb2c5013359664e8bfdc79f9f6054e4e"
+    },
+    {
+      "path": "research/measure_wall_value.py",
+      "sha256": "58919b9d32d6c4ee8cc2cf03e6d4ae649f0fe2bebc8f0453803dc24448e0f769"
+    },
+    {
+      "path": "research/nist_gdt_labels.csv",
+      "sha256": "8fee476a3eb6385fa1237974f86e99878299e8709196094cf77ea9eff92fbecc"
+    },
+    {
+      "path": "research/verify_answer_corpus.py",
+      "sha256": "b9c797c9582fc4cbb02d6d846f17761255fe24c19eb7bd870c497cccb496543c"
+    },
+    {
+      "path": "research/verify_bspline_refit.py",
+      "sha256": "806f18b9e2ef6b149e2445b141cd5f49af912f60f3d4a77c5c6a7f5632fcb25b"
+    },
+    {
+      "path": "research/verify_it_formula.py",
+      "sha256": "0a151b03995e901f818ee88492ac652ae8c314cadf1da8f186981a74abde948d"
+    },
+    {
+      "path": "research/verify_it_two_sources.py",
+      "sha256": "f7852f8e7f5ea3ac834b8da970147afb9b14ad77c523a870f45e90156e4029ad"
+    },
+    {
+      "path": "research/verify_native_dxf.py",
+      "sha256": "2c182e25bd858e4825ba6d2e0fe3f313c57ea08dc63188b4524d559ca1ab38d4"
+    },
+    {
+      "path": "runtimes/cadgen_bridge/README.md",
+      "sha256": "b8a0fdfbd7b3a852c89fcf293921187a0c4f8567463c1947cf73c5af64d20025"
+    },
+    {
+      "path": "runtimes/cadgen_bridge/plate.py",
+      "sha256": "64a765c11f1cbe222fcff68f00a74c937059eef8c3e1568391c1f1a3bcb15801"
+    },
+    {
+      "path": "runtimes/cadgen_bridge/requirements.in",
+      "sha256": "4405925c952ae898373dfdafcf6f04bc09b537e5701c59f16241d7d1139ef3c7"
+    },
+    {
+      "path": "runtimes/cadgen_bridge/requirements.lock",
+      "sha256": "7fe0c6e93acffaab38e8c471d9da8f31f22ed596fe49bbe2e57cc76e9efe563d"
+    },
+    {
+      "path": "runtimes/cadgen_bridge/runtime.lock.json",
+      "sha256": "dde1811d48ffaaaf7bc2506b42a14c49e1886432625731f00dd6ea6a78e0e5a1"
+    },
+    {
+      "path": "runtimes/cadgen_bridge/simple.py",
+      "sha256": "e075f4532b252b0b92ffed065c87cddbad3e7a44b72bd304c3b46e05e638d394"
+    },
+    {
+      "path": "runtimes/drawing_bridge/README.md",
+      "sha256": "6ff9b6c9eac16edef325a17c45c0d52bf63d25d3deb2eec7073a38caf000017c"
+    },
+    {
+      "path": "runtimes/drawing_bridge/drawing_ocr.swift",
+      "sha256": "eba23d6a5a6c064c9aee8572e644d8593db75bf4af9582d19048314c22f9a523"
+    },
+    {
+      "path": "spike/verify_hlr.py",
+      "sha256": "810d71e668135f48f19f06109c7aca08b6f9fb078b3610a7961acfe135233403"
+    },
+    {
+      "path": "tools/dwg_verify/README.md",
+      "sha256": "a6ba5630f11b32394946d8e052017671f26ae4b4f7a9bee9d23d567d74c18036"
+    },
+    {
+      "path": "tools/dwg_verify/run_on_cad_machine.ps1",
+      "sha256": "ea6504f6638d6ebcd7fb47b0a2d10001038aecae7f45d971b0eccb21f14244b7"
+    }
+  ]
+}

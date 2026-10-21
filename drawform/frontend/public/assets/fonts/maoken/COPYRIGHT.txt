@@ -1,0 +1,7 @@
+© 2021 Maoken, NightFurySL2001. Maoken Glitch is redistributed under SIL Open Font License. 
+ © 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+
+© 2021 猫啃网，夜煞之乐 2001 。猫啃网故障黑由猫啃网以《SIL开源字型授权》下重新发布。 
+ © 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+
+UI subset derived for DrawForm. Original glyph shapes retained; the font family was renamed to mark this subset.

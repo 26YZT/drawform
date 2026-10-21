@@ -1,0 +1,18 @@
+{
+  "name": "Canvas UI Ripple",
+  "registry": "https://canvasui.dev/r/ripple-react.json",
+  "mcp": "shadcn view_items_in_registries, direct registry URL",
+  "upstream": "https://github.com/DavidHDev/canvas-ui",
+  "upstream_commit": "a04a99b235299ee79a123a16ccb2e6cf9da74b6b",
+  "registry_source_sha256": "e58df5a87534c11e6759aef8beffb8d2039b65e3f0154af9397e658444e423f5",
+  "license": "MIT + Commons Clause, preserve LICENSE.md",
+  "adaptation": [
+    "forceOverlay keeps existing semantic DOM on all browsers",
+    "allow existing card transforms without nested scrollbars",
+    "expose renderer readiness on output canvas for runtime checks",
+    "overlayOnly also disables experimental engine capture",
+    "context loss releases GPU resources without changing links",
+    "renderer initialization exceptions fall back to semantic HTML",
+    "Vite does not need Next.js use-client directive"
+  ]
+}

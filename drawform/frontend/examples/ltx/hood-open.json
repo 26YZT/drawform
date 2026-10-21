@@ -1,0 +1,9 @@
+{
+  "image_uri": "public/media/exterior-polished.png",
+  "prompt": "Single continuous locked-off automotive studio shot. The stationary silver sedan opens only its front hood smoothly about its real hinge, revealing the engine bay. Keep the camera, car scale, body position, wheels, roof curve, pillars, windows, blue studio, floor and contact shadow stationary. The hood is a rigid panel: it rotates without changing shape, thickness or size. Hold the starting pose briefly, open the hood in one restrained movement, then hold the final pose. Maintain the exact source framing and neutral materials. No camera movement, cuts, wheel rotation, text, new objects, elastic deformation, warping, roof movement or lighting change. Silent technical product visualization.",
+  "model": "ltx-2-5-fast",
+  "duration": 6,
+  "resolution": "1920x1080",
+  "fps": 24,
+  "generate_audio": false
+}

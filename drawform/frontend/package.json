@@ -1,0 +1,37 @@
+{
+  "name": "veyra-interactive-car",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An interactive automotive design study by Amir Mu\u0161i\u0107. Media-driven hover, cutaways and appearance controls.",
+  "license": "MIT",
+  "author": "Amir Mu\u0161i\u0107",
+  "repository": "github:amirmushichge/veyra-interactive-car",
+  "packageManager": "pnpm@10.15.1",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5220 --strictPort",
+    "build": "tsc -b && vite build",
+    "test": "node production/test-hover.cjs && node production/test-workflows.cjs && node --test scripts/ltx-generate.test.mjs",
+    "verify:reference": "node scripts/verify-reference.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 5220 --strictPort",
+    "verify:adaptation": "node scripts/verify-adaptation.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "autoprefixer": "10.4.20",
+    "lucide-react": "0.468.0",
+    "postcss": "8.4.49",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.6.3",
+    "vite": "5.4.21"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5"
+  }
+}

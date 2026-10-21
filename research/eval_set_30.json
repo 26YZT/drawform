@@ -1,0 +1,4143 @@
+{
+ "all": [
+  {
+   "sample_id": "part_0001",
+   "sha256": "7d974fc37d99",
+   "annotations": 67,
+   "pools": {
+    "diameter": [
+     2,
+     3,
+     2
+    ],
+    "linear": [
+     9,
+     6,
+     6
+    ],
+    "depth": [
+     4,
+     2,
+     2
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     1,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 16,
+   "drawn": 16,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 8,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "对抗"
+  },
+  {
+   "sample_id": "part_0026",
+   "sha256": "176b2a20aa2b",
+   "annotations": 74,
+   "pools": {
+    "diameter": [
+     1,
+     2,
+     1
+    ],
+    "linear": [
+     14,
+     8,
+     3
+    ],
+    "depth": [
+     0,
+     1,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 13,
+   "drawn": 13,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0033",
+   "sha256": "022b29810794",
+   "annotations": 69,
+   "pools": {
+    "diameter": [
+     6,
+     7,
+     6
+    ],
+    "linear": [
+     6,
+     5,
+     2
+    ],
+    "depth": [
+     2,
+     3,
+     2
+    ],
+    "counterbore": [
+     1,
+     2,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     0,
+     0
+    ]
+   },
+   "planned": 35,
+   "drawn": 34,
+   "unplaced": 1,
+   "blocked": true,
+   "failed": [
+    "unplaced_dimensions"
+   ],
+   "features": 16,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "边界"
+  },
+  {
+   "sample_id": "part_0014",
+   "sha256": "05d558ec6ba5",
+   "annotations": 66,
+   "pools": {
+    "diameter": [
+     2,
+     2,
+     2
+    ],
+    "linear": [
+     12,
+     9,
+     9
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     1,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 16,
+   "drawn": 16,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 7,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0018",
+   "sha256": "f4ed4d93014d",
+   "annotations": 76,
+   "pools": {
+    "diameter": [
+     4,
+     5,
+     4
+    ],
+    "linear": [
+     8,
+     3,
+     2
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 14,
+   "drawn": 14,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 8,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0007",
+   "sha256": "bf1009b8387e",
+   "annotations": 58,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     9,
+     6,
+     6
+    ],
+    "depth": [
+     2,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 10,
+   "drawn": 10,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0053",
+   "sha256": "8c422b101544",
+   "annotations": 73,
+   "pools": {
+    "diameter": [
+     1,
+     2,
+     1
+    ],
+    "linear": [
+     10,
+     10,
+     7
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 28,
+   "drawn": 28,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 17,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0005",
+   "sha256": "2320257773d1",
+   "annotations": 63,
+   "pools": {
+    "diameter": [
+     2,
+     2,
+     2
+    ],
+    "linear": [
+     6,
+     9,
+     5
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     2,
+     0,
+     0
+    ]
+   },
+   "planned": 26,
+   "drawn": 26,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 11,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0030",
+   "sha256": "a106e40f3c41",
+   "annotations": 81,
+   "pools": {
+    "diameter": [
+     4,
+     4,
+     4
+    ],
+    "linear": [
+     7,
+     4,
+     4
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 11,
+   "drawn": 11,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 5,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0035",
+   "sha256": "457a58993181",
+   "annotations": 71,
+   "pools": {
+    "diameter": [
+     4,
+     4,
+     4
+    ],
+    "linear": [
+     7,
+     3,
+     3
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 13,
+   "drawn": 13,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 31,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0049",
+   "sha256": "f5b53db277dc",
+   "annotations": 79,
+   "pools": {
+    "diameter": [
+     4,
+     4,
+     4
+    ],
+    "linear": [
+     9,
+     4,
+     4
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 11,
+   "drawn": 11,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0009",
+   "sha256": "729ef5165bb4",
+   "annotations": 66,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     8,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 11,
+   "drawn": 10,
+   "unplaced": 1,
+   "blocked": true,
+   "failed": [
+    "unplaced_dimensions"
+   ],
+   "features": 5,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "边界"
+  },
+  {
+   "sample_id": "part_0010",
+   "sha256": "16d4eb22d579",
+   "annotations": 62,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     6,
+     3,
+     3
+    ],
+    "depth": [
+     2,
+     2,
+     1
+    ],
+    "counterbore": [
+     1,
+     2,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 12,
+   "drawn": 12,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 5,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0013",
+   "sha256": "565b7c894d52",
+   "annotations": 64,
+   "pools": {
+    "diameter": [
+     1,
+     2,
+     1
+    ],
+    "linear": [
+     9,
+     5,
+     5
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     1,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 7,
+   "drawn": 7,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 3,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0034",
+   "sha256": "be7ca4cc38d3",
+   "annotations": 67,
+   "pools": {
+    "diameter": [
+     4,
+     4,
+     4
+    ],
+    "linear": [
+     4,
+     3,
+     2
+    ],
+    "depth": [
+     2,
+     2,
+     2
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 15,
+   "drawn": 15,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 8,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0044",
+   "sha256": "e58e71922628",
+   "annotations": 65,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     7,
+     3,
+     3
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 9,
+   "drawn": 9,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 3,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0055",
+   "sha256": "26f227e14859",
+   "annotations": 62,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     10,
+     9,
+     9
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 12,
+   "drawn": 12,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0063",
+   "sha256": "caa59532b437",
+   "annotations": 67,
+   "pools": {
+    "diameter": [
+     1,
+     2,
+     1
+    ],
+    "linear": [
+     8,
+     5,
+     4
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     1,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 9,
+   "drawn": 8,
+   "unplaced": 1,
+   "blocked": true,
+   "failed": [
+    "unplaced_dimensions"
+   ],
+   "features": 21,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "边界"
+  },
+  {
+   "sample_id": "part_0064",
+   "sha256": "8b23f532373e",
+   "annotations": 66,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     10,
+     6,
+     6
+    ],
+    "depth": [
+     0,
+     1,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 10,
+   "drawn": 10,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 2,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0002",
+   "sha256": "c20f418e7b1d",
+   "annotations": 59,
+   "pools": {
+    "diameter": [
+     3,
+     0,
+     0
+    ],
+    "linear": [
+     7,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 3,
+   "drawn": 3,
+   "unplaced": 0,
+   "blocked": true,
+   "failed": [
+    "invalid_solid",
+    "unclassified_faces"
+   ],
+   "features": 0,
+   "feature_kinds": [],
+   "tier": "对抗"
+  },
+  {
+   "sample_id": "part_0003",
+   "sha256": "d2a12d371666",
+   "annotations": 59,
+   "pools": {
+    "diameter": [
+     1,
+     2,
+     1
+    ],
+    "linear": [
+     6,
+     5,
+     5
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     1,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 11,
+   "drawn": 11,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 8,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0016",
+   "sha256": "53fcae8f5d53",
+   "annotations": 57,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     5,
+     5,
+     5
+    ],
+    "depth": [
+     2,
+     2,
+     2
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     1,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 10,
+   "drawn": 10,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0029",
+   "sha256": "a73afbd8a84a",
+   "annotations": 57,
+   "pools": {
+    "diameter": [
+     2,
+     3,
+     2
+    ],
+    "linear": [
+     7,
+     7,
+     7
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 13,
+   "drawn": 13,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 11,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0052",
+   "sha256": "7c006af0722f",
+   "annotations": 59,
+   "pools": {
+    "diameter": [
+     3,
+     4,
+     3
+    ],
+    "linear": [
+     6,
+     4,
+     3
+    ],
+    "depth": [
+     1,
+     2,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 14,
+   "drawn": 14,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 5,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0060",
+   "sha256": "fc0c9a469ea7",
+   "annotations": 59,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     9,
+     9,
+     9
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 16,
+   "drawn": 16,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 6,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0004",
+   "sha256": "7458e6ff5a53",
+   "annotations": 61,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     2,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 15,
+   "drawn": 15,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 8,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0008",
+   "sha256": "cc3e86089398",
+   "annotations": 61,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     5,
+     4,
+     4
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 12,
+   "drawn": 12,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0028",
+   "sha256": "3e6938d00565",
+   "annotations": 60,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 13,
+   "drawn": 13,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 7,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0041",
+   "sha256": "8ab6d6a8d9bf",
+   "annotations": 65,
+   "pools": {
+    "diameter": [
+     2,
+     2,
+     2
+    ],
+    "linear": [
+     8,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     1,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 8,
+   "drawn": 8,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 2,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0042",
+   "sha256": "5c1abf63a05b",
+   "annotations": 73,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     4,
+     5,
+     2
+    ],
+    "depth": [
+     2,
+     2,
+     2
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 23,
+   "drawn": 23,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 8,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0050",
+   "sha256": "09ffcd87f710",
+   "annotations": 60,
+   "pools": {
+    "diameter": [
+     2,
+     3,
+     2
+    ],
+    "linear": [
+     7,
+     4,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 8,
+   "drawn": 8,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 3,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0051",
+   "sha256": "4c89751ec74d",
+   "annotations": 63,
+   "pools": {
+    "diameter": [
+     4,
+     4,
+     4
+    ],
+    "linear": [
+     6,
+     5,
+     5
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 11,
+   "drawn": 11,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0006",
+   "sha256": "9579f4089453",
+   "annotations": 58,
+   "pools": {
+    "diameter": [
+     2,
+     2,
+     2
+    ],
+    "linear": [
+     5,
+     3,
+     3
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 9,
+   "drawn": 9,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 3,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0012",
+   "sha256": "b84b28cdd08c",
+   "annotations": 56,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     4,
+     4,
+     4
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     1,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     1,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 7,
+   "drawn": 7,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 1,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0015",
+   "sha256": "d6639dfac1a0",
+   "annotations": 62,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     4,
+     3,
+     2
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 10,
+   "drawn": 10,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0017",
+   "sha256": "31cc043f082c",
+   "annotations": 57,
+   "pools": {
+    "diameter": [
+     2,
+     2,
+     2
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     1,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     1,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 8,
+   "drawn": 8,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 5,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0025",
+   "sha256": "6ab8af2f7b64",
+   "annotations": 63,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     8,
+     7,
+     5
+    ],
+    "depth": [
+     0,
+     1,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 12,
+   "drawn": 12,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 3,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0027",
+   "sha256": "320521330e39",
+   "annotations": 60,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     5,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 11,
+   "drawn": 11,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 8,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0037",
+   "sha256": "6a8957d9a022",
+   "annotations": 62,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 11,
+   "drawn": 11,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 6,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0038",
+   "sha256": "cccf705131bf",
+   "annotations": 65,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     5,
+     3,
+     3
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 9,
+   "drawn": 9,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 3,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0039",
+   "sha256": "d86c005cb2c3",
+   "annotations": 59,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     1,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 11,
+   "drawn": 11,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 6,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0040",
+   "sha256": "a6a7397a526e",
+   "annotations": 61,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     5,
+     5,
+     5
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 13,
+   "drawn": 13,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0043",
+   "sha256": "b263fe9b22cc",
+   "annotations": 64,
+   "pools": {
+    "diameter": [
+     4,
+     4,
+     4
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 12,
+   "drawn": 12,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 9,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0046",
+   "sha256": "9696ca9b623c",
+   "annotations": 60,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     7,
+     2,
+     2
+    ],
+    "depth": [
+     1,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 4,
+   "drawn": 4,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 1,
+   "feature_kinds": [
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0054",
+   "sha256": "3c34c500757a",
+   "annotations": 58,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     5,
+     6,
+     5
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 10,
+   "drawn": 10,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0061",
+   "sha256": "68c7ffbc46c1",
+   "annotations": 63,
+   "pools": {
+    "diameter": [
+     0,
+     1,
+     0
+    ],
+    "linear": [
+     8,
+     7,
+     4
+    ],
+    "depth": [
+     0,
+     1,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 10,
+   "drawn": 10,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 2,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0021",
+   "sha256": "80629959fbd4",
+   "annotations": 58,
+   "pools": {
+    "diameter": [
+     1,
+     2,
+     1
+    ],
+    "linear": [
+     6,
+     9,
+     4
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     1,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 25,
+   "drawn": 25,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 50,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0023",
+   "sha256": "1d7a0f269bc1",
+   "annotations": 60,
+   "pools": {
+    "diameter": [
+     2,
+     3,
+     2
+    ],
+    "linear": [
+     6,
+     7,
+     3
+    ],
+    "depth": [
+     0,
+     1,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 21,
+   "drawn": 21,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 19,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0032",
+   "sha256": "d002577d497c",
+   "annotations": 60,
+   "pools": {
+    "diameter": [
+     3,
+     4,
+     3
+    ],
+    "linear": [
+     5,
+     7,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 17,
+   "drawn": 17,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 7,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0036",
+   "sha256": "73c705430b7b",
+   "annotations": 60,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 11,
+   "drawn": 11,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 6,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0048",
+   "sha256": "891125252dea",
+   "annotations": 57,
+   "pools": {
+    "diameter": [
+     2,
+     2,
+     2
+    ],
+    "linear": [
+     5,
+     3,
+     3
+    ],
+    "depth": [
+     1,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 7,
+   "drawn": 7,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 2,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0065",
+   "sha256": "6e8539c4d4db",
+   "annotations": 59,
+   "pools": {
+    "diameter": [
+     1,
+     2,
+     1
+    ],
+    "linear": [
+     5,
+     6,
+     5
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     2,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 10,
+   "drawn": 10,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 3,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0011",
+   "sha256": "9499411b3b4d",
+   "annotations": 57,
+   "pools": {
+    "diameter": [
+     2,
+     3,
+     2
+    ],
+    "linear": [
+     3,
+     6,
+     3
+    ],
+    "depth": [
+     1,
+     1,
+     1
+    ],
+    "counterbore": [
+     1,
+     1,
+     1
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 14,
+   "drawn": 14,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 5,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0020",
+   "sha256": "c4059c1466b8",
+   "annotations": 58,
+   "pools": {
+    "diameter": [
+     2,
+     2,
+     2
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 8,
+   "drawn": 8,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 7,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0022",
+   "sha256": "ac8279bbb716",
+   "annotations": 58,
+   "pools": {
+    "diameter": [
+     2,
+     2,
+     2
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 8,
+   "drawn": 7,
+   "unplaced": 1,
+   "blocked": true,
+   "failed": [
+    "unplaced_dimensions"
+   ],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "边界"
+  },
+  {
+   "sample_id": "part_0031",
+   "sha256": "9daafb5f0e06",
+   "annotations": 58,
+   "pools": {
+    "diameter": [
+     3,
+     3,
+     3
+    ],
+    "linear": [
+     3,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 11,
+   "drawn": 11,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 6,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0062",
+   "sha256": "2b0d4e99c92d",
+   "annotations": 56,
+   "pools": {
+    "diameter": [
+     0,
+     1,
+     0
+    ],
+    "linear": [
+     5,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     1,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 4,
+   "drawn": 4,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 1,
+   "feature_kinds": [
+    "Shaft"
+   ],
+   "tier": "复杂"
+  },
+  {
+   "sample_id": "part_0019",
+   "sha256": "02599194564b",
+   "annotations": 53,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     5,
+     5,
+     5
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 6,
+   "drawn": 6,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 1,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "常规"
+  },
+  {
+   "sample_id": "part_0047",
+   "sha256": "4a3c697838da",
+   "annotations": 59,
+   "pools": {
+    "diameter": [
+     2,
+     2,
+     2
+    ],
+    "linear": [
+     4,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     1,
+     0
+    ],
+    "counterbore": [
+     0,
+     1,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 11,
+   "drawn": 10,
+   "unplaced": 1,
+   "blocked": true,
+   "failed": [
+    "unplaced_dimensions"
+   ],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "边界"
+  },
+  {
+   "sample_id": "part_0024",
+   "sha256": "72a8311958fb",
+   "annotations": 53,
+   "pools": {
+    "diameter": [
+     1,
+     1,
+     1
+    ],
+    "linear": [
+     3,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     1,
+     1,
+     1
+    ]
+   },
+   "planned": 7,
+   "drawn": 7,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "常规"
+  },
+  {
+   "sample_id": "part_0057",
+   "sha256": "3529ef58c2e3",
+   "annotations": 54,
+   "pools": {
+    "diameter": [
+     0,
+     2,
+     0
+    ],
+    "linear": [
+     3,
+     6,
+     2
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     2,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 20,
+   "drawn": 20,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 12,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "常规"
+  },
+  {
+   "sample_id": "part_0045",
+   "sha256": "f3968a958f95",
+   "annotations": 50,
+   "pools": {
+    "diameter": [
+     0,
+     2,
+     0
+    ],
+    "linear": [
+     3,
+     4,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     0,
+     0,
+     0
+    ],
+    "radius": [
+     1,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 7,
+   "drawn": 7,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 4,
+   "feature_kinds": [
+    "Bore",
+    "Shaft"
+   ],
+   "tier": "常规"
+  },
+  {
+   "sample_id": "part_0056",
+   "sha256": "badfcb878026",
+   "annotations": 52,
+   "pools": {
+    "diameter": [
+     0,
+     1,
+     0
+    ],
+    "linear": [
+     3,
+     5,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 6,
+   "drawn": 6,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 1,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "常规"
+  },
+  {
+   "sample_id": "part_0058",
+   "sha256": "64fe57c83511",
+   "annotations": 53,
+   "pools": {
+    "diameter": [
+     0,
+     1,
+     0
+    ],
+    "linear": [
+     3,
+     4,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 6,
+   "drawn": 6,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 1,
+   "feature_kinds": [
+    "Bore"
+   ],
+   "tier": "常规"
+  },
+  {
+   "sample_id": "part_0059",
+   "sha256": "53c46c2b0ab3",
+   "annotations": 51,
+   "pools": {
+    "diameter": [
+     0,
+     0,
+     0
+    ],
+    "linear": [
+     3,
+     3,
+     3
+    ],
+    "depth": [
+     0,
+     0,
+     0
+    ],
+    "counterbore": [
+     0,
+     0,
+     0
+    ],
+    "countersink": [
+     0,
+     0,
+     0
+    ],
+    "chamfer": [
+     1,
+     0,
+     0
+    ],
+    "radius": [
+     0,
+     0,
+     0
+    ],
+    "angle": [
+     0,
+     0,
+     0
+    ],
+    "pcd": [
+     0,
+     0,
+     0
+    ]
+   },
+   "planned": 3,
+   "drawn": 3,
+   "unplaced": 0,
+   "blocked": false,
+   "failed": [],
+   "features": 0,
+   "feature_kinds": [],
+   "tier": "常规"
+  }
+ ],
+ "selected": [
+  "part_0019",
+  "part_0024",
+  "part_0057",
+  "part_0045",
+  "part_0056",
+  "part_0058",
+  "part_0059",
+  "part_0026",
+  "part_0014",
+  "part_0018",
+  "part_0007",
+  "part_0053",
+  "part_0005",
+  "part_0030",
+  "part_0035",
+  "part_0049",
+  "part_0010",
+  "part_0013",
+  "part_0034",
+  "part_0044",
+  "part_0055",
+  "part_0064",
+  "part_0003",
+  "part_0033",
+  "part_0009",
+  "part_0063",
+  "part_0022",
+  "part_0047",
+  "part_0001",
+  "part_0002"
+ ],
+ "tier_stats": {
+  "常规": {
+   "real": 32,
+   "gen": 39,
+   "hit": 25,
+   "n": 7
+  },
+  "复杂": {
+   "real": 543,
+   "gen": 454,
+   "hit": 385,
+   "n": 52
+  },
+  "边界": {
+   "real": 64,
+   "gen": 49,
+   "hit": 39,
+   "n": 6
+  }
+ }
+}

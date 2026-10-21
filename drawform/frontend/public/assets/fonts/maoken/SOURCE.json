@@ -1,0 +1,15 @@
+{
+  "font": "猫啃网故障黑",
+  "official_page": "https://www.maoken.com/freefonts/14318.html",
+  "source_url": "https://raw.githubusercontent.com/LupusCaeruleus/Fonts/8b98fbac3485006b5493c0847cb8d560d55f537d/MaokenGlitchSans-Regular.woff2",
+  "source_version": [
+    "Version 1.000;August 23, 2025;FontCreator 15.0.0.2966 64-bit"
+  ],
+  "source_sha256": "8719233838108972cbb6b899c66665193e0626ebd37c0f34d70735aebaf416f9",
+  "original_unicode_count": 30892,
+  "subset_unicode_count": 347,
+  "subset_sha256": "0fbfadedc3fdd6c942effdf49bcc76f7fd01de5781bdf409f045653591f90cb1",
+  "subset_bytes": 279360,
+  "license": "SIL Open Font License 1.1",
+  "note": "Official page currently labels 1.01; this public OFL mirror identifies itself as Version 1.000. No claim of latest version."
+}

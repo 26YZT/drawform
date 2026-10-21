@@ -1,0 +1,265 @@
+{
+  "InputBundle": {
+    "schema_version": "1.0",
+    "bundle_id": "in_demo_02",
+    "project_id": "prj_demo",
+    "input_revision": 2,
+    "mode": "new_design",
+    "text_artifact_id": "art_demo_prompt",
+    "attachments": [
+      {
+        "artifact_id": "art_demo_drawing",
+        "sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+        "format": "pdf",
+        "selected_pages": [
+          0
+        ],
+        "crop": null
+      }
+    ],
+    "selection_policy": "explicit_selected_part_only",
+    "created_by": "seat_demo"
+  },
+  "ExtractedFact": {
+    "fact_id": "fact_hole_diameter",
+    "kind": "hole_diameter",
+    "value": 20.0,
+    "unit": "mm",
+    "evidence": {
+      "artifact_id": "art_demo_drawing",
+      "artifact_sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+      "page_index": 0,
+      "bbox": [
+        0.42,
+        0.25,
+        0.57,
+        0.33
+      ],
+      "bbox_unit": "normalized_top_left",
+      "snippet": "Ø20",
+      "view_id": "front"
+    },
+    "provenance": "drawing_callout_extracted",
+    "confirmation": "unconfirmed",
+    "confidence": 0.91,
+    "conflicts_with": []
+  },
+  "Clarification": {
+    "question_id": "q_thickness",
+    "bundle_id": "in_demo_02",
+    "basis_sha256": "5555555555555555555555555555555555555555555555555555555555555555",
+    "reason_code": "MISSING_THICKNESS",
+    "message": "这块板的厚度是多少毫米？",
+    "required_for": [
+      "reproduce_geometry",
+      "drawing_source"
+    ],
+    "answer_schema": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "unit": "mm"
+    },
+    "status": "open"
+  },
+  "ModelingSpec": {
+    "schema_version": "1.0",
+    "spec_id": "spec_demo_02",
+    "revision": 2,
+    "bundle_id": "in_demo_02",
+    "bundle_sha256": "6666666666666666666666666666666666666666666666666666666666666666",
+    "mode": "new_design",
+    "units": "mm",
+    "coordinate_system": {
+      "origin": "base_center_bottom",
+      "x": "length",
+      "y": "width",
+      "z": "thickness"
+    },
+    "parameters": {
+      "length_mm": 100.0,
+      "width_mm": 60.0,
+      "thickness_mm": 8.0,
+      "hole_diameter_mm": 20.0
+    },
+    "features": [
+      {
+        "id": "base",
+        "op": "box",
+        "length": {
+          "param": "length_mm"
+        },
+        "width": {
+          "param": "width_mm"
+        },
+        "height": {
+          "param": "thickness_mm"
+        }
+      },
+      {
+        "id": "hole_center",
+        "op": "cut_hole",
+        "parent": "base",
+        "diameter": {
+          "param": "hole_diameter_mm"
+        },
+        "axis": "+Z",
+        "entry": "top",
+        "center_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "through": true
+      }
+    ],
+    "parameter_facts": {
+      "length_mm": [
+        "fact_length"
+      ],
+      "width_mm": [
+        "fact_width"
+      ],
+      "thickness_mm": [
+        "fact_thickness"
+      ],
+      "hole_diameter_mm": [
+        "fact_hole_diameter"
+      ]
+    },
+    "locked_requirements": [
+      "length_mm",
+      "width_mm",
+      "thickness_mm",
+      "hole_diameter_mm",
+      "hole_count=1",
+      "hole_through=true"
+    ],
+    "required_checks": [
+      {
+        "id": "req.length",
+        "metric": "extent_x",
+        "expected": 100.0,
+        "unit": "mm"
+      },
+      {
+        "id": "req.width",
+        "metric": "extent_y",
+        "expected": 60.0,
+        "unit": "mm"
+      },
+      {
+        "id": "req.thickness",
+        "metric": "plate_thickness",
+        "expected": 8.0,
+        "unit": "mm"
+      },
+      {
+        "id": "req.hole",
+        "metric": "cylindrical_through_hole",
+        "feature": "hole_center",
+        "diameter_mm": 20.0,
+        "count": 1,
+        "center_xy_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "assumptions": []
+  },
+  "ModelingSession": {
+    "session_id": "ms_demo_02",
+    "bundle_id": "in_demo_02",
+    "spec_revision": 2,
+    "generation_epoch": 3,
+    "state": "awaiting_adoption",
+    "base_model_version_id": "rev_demo_01",
+    "current_candidate_id": "cand_demo_02",
+    "active_child_operation_id": null,
+    "budget": {
+      "max_provider_calls": 6,
+      "provider_calls_used": 3,
+      "max_build_attempts": 3,
+      "build_attempts_used": 1,
+      "max_wall_seconds": 600,
+      "money_limit": null,
+      "currency": null,
+      "cost_status": "provider_usage_missing"
+    },
+    "human_review_status": "not_reviewed"
+  },
+  "ModelCandidate": {
+    "candidate_id": "cand_demo_02",
+    "candidate_version_id": "rev_demo_candidate_02",
+    "session_id": "ms_demo_02",
+    "spec_id": "spec_demo_02",
+    "spec_revision": 2,
+    "spec_sha256": "7777777777777777777777777777777777777777777777777777777777777777",
+    "generation_epoch": 3,
+    "artifact_id": "art_demo_step",
+    "step_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "compiler_fingerprint": "spec-compiler-v1-demo",
+    "runtime_fingerprint": "cadgen-0.7.21-lock-demo",
+    "validation_report_id": "val_demo_model_02",
+    "snapshot_packet_id": "snap_demo_02",
+    "requirement_coverage": "complete",
+    "basis_status": "confirmed_design",
+    "technical_status": "passed",
+    "adoption_status": "not_adopted"
+  },
+  "TransferPlan": {
+    "transfer_plan_id": "tp_demo",
+    "session_id": "ms_demo_02",
+    "provider_id": "configured_provider_demo",
+    "model_id": "configured_model_demo",
+    "allowed_inputs": [
+      {
+        "artifact_id": "art_demo_drawing_page0",
+        "sha256": "8888888888888888888888888888888888888888888888888888888888888888",
+        "purpose": "dimension_extraction"
+      },
+      {
+        "artifact_id": "art_demo_prompt",
+        "sha256": "9999999999999999999999999999999999999999999999999999999999999999",
+        "purpose": "intent"
+      }
+    ],
+    "allowed_derived_inputs": [
+      "candidate_snapshots_pinned_to_session"
+    ],
+    "allow_unselected_project_files": false,
+    "authorization_scope": "this_session_selected_inputs",
+    "payload_manifest_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "StepExportReceipt": {
+    "export_id": "exp_demo_02",
+    "artifact_id": "art_demo_step",
+    "version_id": "rev_demo_adopted_02",
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "format": "STEP",
+    "representation": "native_brep",
+    "units": "mm",
+    "purpose": "design_model",
+    "basis_status": "confirmed_design",
+    "fresh_readback": "passed",
+    "readback_runtime_fingerprint": "df-occt8-demo",
+    "download_url": "/api/workbench/v1/artifacts/art_demo_step/content?version=rev_demo_adopted_02",
+    "human_review": "not_reviewed"
+  },
+  "DrawingSourceBinding": {
+    "adopted_model_version_id": "rev_demo_adopted_02",
+    "step_artifact_id": "art_demo_step",
+    "step_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "generation_basis": {
+      "bundle_id": "in_demo_02",
+      "spec_id": "spec_demo_02",
+      "spec_sha256": "7777777777777777777777777777777777777777777777777777777777777777",
+      "basis_status": "confirmed_design",
+      "validation_report_id": "val_demo_model_02"
+    },
+    "legacy_binding": {
+      "job_id": "job_demo_generated_02",
+      "receipt_kind": "job_submission"
+    },
+    "engineering_review_status": "not_reviewed"
+  }
+}

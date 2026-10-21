@@ -1,0 +1,198 @@
+{
+  "release": "v1.0.0",
+  "approvedDesignDate": "2026-09-10",
+  "files": [
+    {
+      "path": "docs/images/desktop.png",
+      "text": false,
+      "bytes": 83934,
+      "sha256": "ec1969f7e92310fd5cdf6c62ff182e58b0102969a1996c6fed14f223af6eab6c"
+    },
+    {
+      "path": "docs/images/mobile.png",
+      "text": false,
+      "bytes": 34394,
+      "sha256": "c40b148aeb76ba63d068f3a443d374e8c4419996978fa173078fd8f27bbd0ba5"
+    },
+    {
+      "path": "index.html",
+      "text": true,
+      "bytes": 460,
+      "sha256": "b57e744ab7ef35acd1fa94d054fa4884b5f44947b930c42b83f192b7fcdfb896"
+    },
+    {
+      "path": "postcss.config.js",
+      "text": true,
+      "bytes": 80,
+      "sha256": "190c877db466995bf1482f4a16abd06e04a89ede3119341e2a86ff96e1737b27"
+    },
+    {
+      "path": "public/media/battery-blue.png",
+      "text": false,
+      "bytes": 2079457,
+      "sha256": "90d573ce8569362b0f0c63e884b8e2683d312c436d4b8bd449a51535817ceb9a"
+    },
+    {
+      "path": "public/media/battery-hover-forward.mp4",
+      "text": false,
+      "bytes": 330933,
+      "sha256": "28f264b3a2b11025e40e273348d90e624c54e511a1b5141260c10032eec8901b"
+    },
+    {
+      "path": "public/media/battery-hover-reverse.mp4",
+      "text": false,
+      "bytes": 284523,
+      "sha256": "0c6d55c302280c531d841da72875aaaf08e32dfe95d3d4ba48cf12a575b3c42a"
+    },
+    {
+      "path": "public/media/battery.png",
+      "text": false,
+      "bytes": 1979546,
+      "sha256": "9ce2b98e8897c7ff77384ef5492a840e27e645395f60102cba091092dd12f20c"
+    },
+    {
+      "path": "public/media/config/electric-green.png",
+      "text": false,
+      "bytes": 1456193,
+      "sha256": "a4cb72ab48752bf5c27cc079c7f643ac1b3ef23fd8aa3ffc902fa99cc45ab4d8"
+    },
+    {
+      "path": "public/media/config/graphite.png",
+      "text": false,
+      "bytes": 1441808,
+      "sha256": "f4d4c277a58c84410059339fcfb61ca7b3603f6cf177da171e141c52507d7fa6"
+    },
+    {
+      "path": "public/media/config/lime-green.png",
+      "text": false,
+      "bytes": 1442605,
+      "sha256": "e132799f06033e21a939f8c0afae258a9667d602c326971b89fc3b074bf22e91"
+    },
+    {
+      "path": "public/media/config/sky-blue.png",
+      "text": false,
+      "bytes": 1417271,
+      "sha256": "cb4dd42cd552742eca7a12c102c44d117dd3300eb475bce6bc6d33c07b730468"
+    },
+    {
+      "path": "public/media/config/wheels-aero.png",
+      "text": false,
+      "bytes": 1383683,
+      "sha256": "75d37bf058b0fb6f77fbdfa2257691ad2d4db57f255c848c454700da9a1c12f6"
+    },
+    {
+      "path": "public/media/config/wheels-forged.png",
+      "text": false,
+      "bytes": 1405117,
+      "sha256": "6711c0c45c4b6984183d67f389d7071c61a4026fc471ca95b113f47bac0ba86d"
+    },
+    {
+      "path": "public/media/drive-blue.png",
+      "text": false,
+      "bytes": 2084360,
+      "sha256": "af955c93520443f0a827a32c3be2ec831196f10b8a145f54a562675fe1eee69d"
+    },
+    {
+      "path": "public/media/drive.png",
+      "text": false,
+      "bytes": 1925064,
+      "sha256": "84ee5a7e09550d99174cc3788f8d0e147886cc3680a607b69db887d7a8f674fa"
+    },
+    {
+      "path": "public/media/exterior-blue.png",
+      "text": false,
+      "bytes": 1459387,
+      "sha256": "2498f53baa1bf3b15500c94522b264fcc5d0770786d01d021d1b2ae299822dda"
+    },
+    {
+      "path": "public/media/exterior-polished.png",
+      "text": false,
+      "bytes": 1445207,
+      "sha256": "9433f3641eae25d6fc2f96ee646af0867d4906adf659a589c7ba4704d25bd29d"
+    },
+    {
+      "path": "public/media/exterior.png",
+      "text": false,
+      "bytes": 1308469,
+      "sha256": "c62ddf054ab80748bf8c3ba3207e57b8eb498a011c1fad91fb398a86e66579e8"
+    },
+    {
+      "path": "public/media/hood-hover-forward.mp4",
+      "text": false,
+      "bytes": 266800,
+      "sha256": "4a95a615e47a105155243745b83c784214fb188348f164af1864cc8dc22981ec"
+    },
+    {
+      "path": "public/media/hood-hover-reverse.mp4",
+      "text": false,
+      "bytes": 245876,
+      "sha256": "ee73759cd6d715d9ab56a9231fabdead9d1d631e8e502218875297a0dcb200ad"
+    },
+    {
+      "path": "public/media/lenses-blue.png",
+      "text": false,
+      "bytes": 1813697,
+      "sha256": "fb1fc0b9a2c494ba34bf8ba855f1230d5561a821035de30620a98e0b13eabe83"
+    },
+    {
+      "path": "src/App.tsx",
+      "text": true,
+      "bytes": 15735,
+      "sha256": "59ae356228e1b335390a75365d2e557dcff0c92789f0a7b3205fd048dfccdf1f"
+    },
+    {
+      "path": "src/AppearanceMenu.tsx",
+      "text": true,
+      "bytes": 1848,
+      "sha256": "9a00c175fed74c50bffb5d9c0890474e32c6cbca7ccf0f5566eff427ae3a968e"
+    },
+    {
+      "path": "src/HoverVideo.tsx",
+      "text": true,
+      "bytes": 5713,
+      "sha256": "dbb7dcef84d460d72eda66628ad279528a5548d17d6ddf5191a3553d4e9091a7"
+    },
+    {
+      "path": "src/appearance.ts",
+      "text": true,
+      "bytes": 1175,
+      "sha256": "3c6077a54ef6bdff09e6babc6662e0f7099bb2412dfde96b4295afeb0a3ff2f1"
+    },
+    {
+      "path": "src/content.ts",
+      "text": true,
+      "bytes": 3651,
+      "sha256": "188dd07bd15b4a032abb9cce60ccda930c35e85e349a13c3ad5e5dce00f9226e"
+    },
+    {
+      "path": "src/index.css",
+      "text": true,
+      "bytes": 16686,
+      "sha256": "0c083961b59f9676906d6a2ac5e65e36ae9787fcff737ec400add396d8d624fe"
+    },
+    {
+      "path": "src/main.tsx",
+      "text": true,
+      "bytes": 232,
+      "sha256": "5f49dce6e6cc4b5d678cf529ef892af0ab7dfa6afb300b11ad559224019b8b05"
+    },
+    {
+      "path": "tailwind.config.js",
+      "text": true,
+      "bytes": 307,
+      "sha256": "aa63a68aeacdd9d244e920f0207f8be2efd6d26155662e89472325f7b9e2cb62"
+    },
+    {
+      "path": "tsconfig.app.json",
+      "text": true,
+      "bytes": 507,
+      "sha256": "44efc7c82fd458eaa9d7945d2680d9fedd53944ff8fa4650b2797d599acf0b74"
+    },
+    {
+      "path": "tsconfig.json",
+      "text": true,
+      "bytes": 71,
+      "sha256": "b6d51d37a8d51b993bd758b7043fa9233eea24d34a4041198ff73c063d9ed66c"
+    }
+  ]
+}

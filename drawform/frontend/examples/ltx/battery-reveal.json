@@ -1,0 +1,9 @@
+{
+  "image_uri": "public/media/exterior-polished.png",
+  "prompt": "Locked camera, single shot of this stationary silver electric sedan in the same blue studio. Reveal the battery beneath the cabin only by smoothly changing material transparency. Treat the image as registered layers of one fixed rigid model. Roof arc, pillars, windshield, door edges, wheel arches, wheels and full silhouette stay at their original screen positions. A flat yellow-green battery pack appears under the cabin between the axles. Internal thin graphite contours fade into place without drawing or moving. The roof retains exactly the same curvature and volume throughout. Start and end settled. Keep perspective, camera scale, framing, background, floor and shadow unchanged. No geometry morphing, distortion, warping, bending, bulging, breathing, wobble, elastic motion, panel movement, hood opening, wheel movement, camera motion, cuts, floating parts, scanning beams, text or particles. Animate only material visibility and battery emphasis. Silent studio product visualization.",
+  "model": "ltx-2-5-fast",
+  "duration": 6,
+  "resolution": "1920x1080",
+  "fps": 24,
+  "generate_audio": false
+}

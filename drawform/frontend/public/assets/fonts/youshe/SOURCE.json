@@ -1,0 +1,11 @@
+{
+  "font": "YouSheBiaoTiYuan",
+  "version": "Version 1.005;FEAKit 1.0",
+  "copyright": "(c) Copyright YouShe Network Technology Co., Ltd",
+  "publisher_source": "https://www.uisdc.com/uisdc-4-free-font",
+  "source_sha256": "cbf129a6f7586300ca63eb8b2e25371fac24b65089f284e21cbbb5f3f0abe251",
+  "webfont_sha256": "450bcc3355dfa13f9fa30f568332ad01229f9c9394fa7dba86393e2f89c23caa",
+  "conversion": "Lossless WOFF2 container; complete glyph set and font names retained; no outline edits",
+  "glyphs": 7178,
+  "download_mirror": "https://github.com/Maggg1/-/blob/d2f5f318ebde75f414a601a5071a7c37952c76d1/public/fonts/YouSheBiaoTiYuan.otf"
+}

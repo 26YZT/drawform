@@ -1,0 +1,10 @@
+{
+  "font": "DouyinSans",
+  "version": "Version 1.01",
+  "copyright": "copyright(c)2023 by Beijing Zitiao Network Technology Co., Ltd. All rights reserved.",
+  "publisher_source": "https://github.com/bytedance/fonts/tree/327565b61501d7a6d4902ed6ce417a7bd2ae54e6/DouyinSans",
+  "source_sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+  "webfont_sha256": "4616b261912f2aeff54be55375326ba5cbf0ea362156ff62ff8b956221391ac6",
+  "conversion": "Lossless WOFF2 container; complete glyph set and font names retained; no outline edits",
+  "glyphs": 7715
+}

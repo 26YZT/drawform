@@ -1,0 +1,259 @@
+.drawform-experience {
+  font-family: 'Douyin Sans UI', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  font-synthesis: none;
+}
+.drawform-experience .header-workspace-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  font-size: 13px;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.header-workspace-link:hover { color: var(--acid); }
+.drawform-experience .intro h1 { line-height: 1.14; letter-spacing: -.055em; }
+.drawform-experience .detail-copy h2 { line-height: 1.12; }
+.workflow-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  max-width: 100%;
+  padding: 11px 14px;
+  background: var(--acid);
+  color: var(--on-acid);
+  border-radius: var(--radius-control);
+  font-size: 14px;
+  line-height: 1.45;
+  transition: background var(--ui-fast), opacity var(--ui-fast);
+}
+.workflow-cta svg { flex-shrink: 0; }
+.workflow-cta:hover { background: #f3ff86; }
+.workflow-cta[aria-disabled='true'] { opacity: .5; cursor: wait; }
+.detail-cta { margin: 0 0 22px; }
+.drawform-experience .workflow-entry {
+  display: block;
+  min-height: 44px;
+  border-radius: 3px;
+}
+.workflow-entry h3 { display: flex; align-items: center; gap: 10px; }
+.workflow-entry h3 svg { flex-shrink: 0; }
+.workflow-entry:hover h3 { color: var(--acid); }
+.workflow-entry p { text-wrap: pretty; }
+.drawform-experience .workflow-dock {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px 24px;
+  width: min(560px, calc(100vw - 48px));
+  padding: 18px 54px 18px 18px;
+}
+.workflow-dock .appearance-heading { grid-column: 1 / -1; grid-row: auto; }
+.workflow-dock-description { grid-column: 1; margin: 0; font-size: 14px; line-height: 1.55; color: var(--muted); }
+.workflow-dock .workflow-cta { grid-column: 2; grid-row: 2 / 4; }
+.workflow-dock .appearance-caption { grid-column: 1; grid-row: 3; margin: 0; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.drawform-experience .footer-baseline span:last-child { max-width: 42ch; }
+@media(min-width:901px) and (max-height:780px) {
+  .drawform-experience .detail-cta { margin-bottom: 8px; }
+}
+@media(max-width:900px) {
+  .drawform-experience .workflow-dock {
+    grid-template-columns: minmax(0, 1fr);
+    width: min(300px, calc(100vw - 48px));
+    padding: 14px 16px 16px;
+    gap: 10px;
+  }
+  .workflow-dock .appearance-heading { min-height: 30px; padding-right: 32px; }
+  .workflow-dock .appearance-close { position: absolute; right: 6px; top: 7px; margin: 0; }
+  .workflow-dock .workflow-cta { grid-column: 1; grid-row: 3; }
+  .workflow-dock .appearance-caption { grid-column: 1; grid-row: 4; }
+  .drawform-experience .footer-baseline span:last-child { max-width: 23ch; }
+}
+@media(max-width:480px) {
+  .drawform-experience .masthead { gap: 16px; }
+  .drawform-experience .header-workspace-link { font-size: 12px; gap: 5px; }
+  .drawform-experience .intro h1 { font-size: clamp(29px, 8vw, 36px); }
+  .drawform-experience .intro-description { line-height: 1.5; max-width: none; }
+  .drawform-experience .feature-note h3 { font-size: 14px; gap: 6px; }
+  .drawform-experience .feature-note p { line-height: 1.55; }
+  .drawform-experience .footer-baseline { font-size: 11px; gap: 16px; }
+  .drawform-experience .detail-copy h2 { font-size: 34px; }
+}
+
+/* Chinese display type belongs to headings; dimensions and prose stay neutral. */
+@font-face {
+  font-family: 'Douyin Sans UI';
+  src: url('/assets/fonts/douyin/DouyinSans.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'YouShe Title Round';
+  src: url('/assets/fonts/youshe/YouSheBiaoTiYuan.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+.experience.drawform-experience { height: auto; min-height: 100dvh; overflow: visible; }
+.drawform-experience .stage { flex: none; height: calc(var(--scene-height) + 88px); }
+.drawform-experience .wordmark,
+.drawform-experience .intro h1,
+.drawform-experience .detail-copy h2,
+.drawform-experience .workflow-entry h3 {
+  font-family: 'YouShe Title Round', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+}
+.drawform-experience .wordmark { gap: 14px; font-size: 36px; letter-spacing: .02em; }
+.brand-caption { font: 12px/1.4 'Douyin Sans UI', 'PingFang SC', sans-serif; letter-spacing: .08em; color: #0a1c29; }
+.drawform-experience .header-middle { display: none; }
+.drawform-experience .header-workspace-link { padding: 0 14px; border-radius: 8px; background: #0066ff; color: #fff; font-size: 13px; }
+.drawform-experience .header-workspace-link:hover { background: #0055d6; }
+.drawform-experience .intro h1 { font-size: clamp(32px, 3.2vw, 46px); letter-spacing: 0; line-height: 1.25; text-wrap: balance; }
+.drawform-experience .intro-description { color: #0a1c29; line-height: 1.65; font-size: 13px; }
+.drawform-experience .transition-status { padding: 7px 12px; border-radius: 99px; background: #35586e; color: #e1eaf0; font-size: 13px; }
+.drawform-experience .scene-footer { height: auto; flex: 1; justify-content: flex-start; gap: 16px; padding: 24px 0 18px; }
+.workflow-section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; color: #0a1c29; }
+.workflow-section-head h2 { font-size: 18px; line-height: 1.4; font-weight: 600; margin: 0; }
+.workflow-section-head p { font-size: 12px; line-height: 1.5; margin: 0; }
+.drawform-experience .feature-notes { gap: 12px; }
+.drawform-experience .workflow-entry {
+  display: flex; flex-direction: column; min-width: 0; padding: 16px 16px 10px;
+  background: #35586e; border: 1px solid #ffffff40; border-radius: 12px;
+  transition: border-color 180ms, background 180ms, transform 180ms;
+}
+.drawform-experience .workflow-entry-primary { border-color: var(--acid); }
+.drawform-experience .workflow-entry:hover { background: #2c4d63; border-color: var(--acid); transform: translateY(-2px); }
+.workflow-entry-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+.workflow-number { font: 12px/1 ui-monospace, 'SF Mono', monospace; letter-spacing: .08em; color: var(--acid); }
+.workflow-input { font-size: 11px; color: #e1eaf0; line-height: 1.5; }
+.drawform-experience .workflow-entry h3 { font-size: 23px; line-height: 1.45; letter-spacing: 0; margin: 0 0 7px; text-wrap: balance; }
+.drawform-experience .workflow-entry p { font-size: 13px; line-height: 1.65; max-width: none; margin: 0 0 12px; color: #e1eaf0; }
+.workflow-entry-action { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; margin-top: auto; border-top: 1px solid #ffffff30; font-size: 13px; line-height: 1.4; color: #fff; }
+.workflow-entry-primary .workflow-entry-action { color: var(--acid); }
+.workflow-entry-action svg { flex-shrink: 0; }
+.drawform-experience .footer-baseline { color: #0a1c29; padding-top: 14px; }
+.drawform-experience .detail-introduction,
+.drawform-experience .detail-components { padding: 18px; border: 1px solid #ffffff30; border-radius: 12px; background: #35586e; }
+.drawform-experience .detail-components { margin-top: 12px; }
+.detail-guide-title { margin: 0 0 12px; font-size: 13px; line-height: 1.6; font-weight: 500; color: #e1eaf0; }
+.workflow-guide-item { border-bottom: 1px solid var(--line); }
+.workflow-guide-item button { border-bottom: 0; }
+.workflow-guide-item .part-description { margin: 0; padding: 0 0 14px; font-size: 13px; line-height: 1.7; color: #e1eaf0; }
+.workflow-guide-item .part-description[hidden] { display: none; }
+.drawform-experience .detail-copy h2 { font-size: 32px; letter-spacing: 0; line-height: 1.3; }
+.drawform-experience .detail-copy .system-description { font-size: 14px; line-height: 1.75; }
+.drawform-experience .detail-copy .eyebrow { font-size: 12px; line-height: 1.6; }
+.drawform-experience .detail-copy .benefit { margin-top: 14px; }
+.drawform-experience .detail-copy .benefit p { line-height: 1.7; }
+.drawform-experience:has(.appearance-hotspot.expanded) .workflow-section-head { visibility: hidden; }
+@media(min-width:901px) and (max-height:780px) {
+  .drawform-experience .detail-components { margin-top: 0; }
+  .drawform-experience .detail-copy { gap: 18px; }
+}
+@media(max-width:900px) {
+  .drawform-experience .stage { height: calc(var(--scene-height) + 132px); }
+  .drawform-experience:not(.phase-overview) .stage { height: auto; }
+  .drawform-experience .wordmark { font-size: 32px; }
+  .drawform-experience .intro h1 { font-size: clamp(30px, 5.4vw, 42px); }
+  .drawform-experience .intro-description { font-size: 13px; margin-top: 12px; }
+  .drawform-experience .detail-copy h2 span { display: block; }
+  .drawform-experience .detail-copy h2 span+span:before { content: none; }
+  .drawform-experience .feature-notes { gap: 12px; }
+  .drawform-experience .scene-footer { padding-top: 24px; gap: 16px; }
+  .workflow-section-head { align-items: flex-start; flex-direction: column; gap: 4px; }
+  .drawform-experience .footer-baseline { gap: 16px; }
+}
+@media(max-width:480px) {
+  .drawform-experience .wordmark { font-size: 31px; gap: 8px; }
+  .brand-caption { display: none; }
+  .drawform-experience .header-workspace-link { padding: 0 10px; font-size: 12px; gap: 6px; }
+  .drawform-experience .intro h1 { font-size: clamp(29px, 7.5vw, 36px); }
+  .drawform-experience .workflow-entry { padding: 14px 12px 8px; }
+  .drawform-experience .workflow-entry h3 { font-size: 21px; line-height: 1.4; }
+  .workflow-entry-top { gap: 6px; margin-bottom: 10px; }
+  .workflow-input { font-size: 11px; }
+  .drawform-experience .workflow-entry p { font-size: 13px; }
+  .workflow-entry-action { font-size: 13px; gap: 6px; }
+  .drawform-experience .detail-copy h2 { font-size: 32px; }
+}
+
+/* The supplied group mark stays intact; its original blue uses a white mount. */
+.drawform-experience .product-brand {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 12px;
+  letter-spacing: 0;
+}
+.group-brand { display: flex; align-items: center; gap: 10px; }
+.group-logo-plate {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+.group-logo-plate img { display: block; width: 32px; height: 32px; object-fit: contain; }
+.group-brand-name {
+  font: 12px/1.4 'Douyin Sans UI', 'PingFang SC', system-ui, sans-serif;
+  letter-spacing: .04em;
+  color: #0a1c29;
+  white-space: nowrap;
+}
+.brand-divider { display: block; width: 1px; height: 40px; background: #ffffff60; flex-shrink: 0; }
+.product-brand-copy { display: flex; flex-direction: column; gap: 5px; }
+.product-brand-title { font-size: 32px; line-height: 1.05; letter-spacing: .02em; }
+.product-brand-copy .brand-caption { font-size: 11px; line-height: 1.4; letter-spacing: .04em; white-space: nowrap; }
+@media(max-width:480px) {
+  .drawform-experience .product-brand { gap: 10px; }
+  .group-logo-plate { width: 44px; height: 44px; border-radius: 7px; }
+  .group-logo-plate img { width: 28px; height: 28px; }
+  .brand-divider { height: 32px; }
+  .product-brand-title { font-size: 28px; }
+  .group-brand-name, .product-brand-copy .brand-caption { display: none; }
+}
+
+/* Scene actions live outside the illustration, with visible names and targets. */
+.drawform-experience.phase-overview .stage { height: calc(var(--scene-height) + 184px); }
+.scene-controls { position: absolute; z-index: 6; left: 50%; top: calc(var(--scene-height) + 106px); transform: translateX(-50%); width: var(--scene-width); display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 8px; }
+.scene-controls-heading { grid-column: 1 / -1; margin: 0; font-size: 12px; line-height: 18px; color: #193341; }
+.scene-controls .hotspot { position: relative; inset: auto; transform: none; width: 100%; min-height: 44px; height: 44px; padding: 8px 10px; border: 1px solid #bed0dc; border-radius: 8px; background: #35586e; color: #fff; }
+.scene-controls .hotspot-label { position: static; inset: auto; transform: none; opacity: 1; padding: 0; background: transparent; color: inherit; font-size: 13px; line-height: 1.5; gap: 8px; }
+.scene-controls .hotspot.active, .scene-controls .hotspot:hover:not(:disabled) { background: #0066ff; border-color: #0066ff; }
+.scene-controls .hotspot:disabled { opacity: .5; }
+.scene-controls .appearance-hotspot { position: relative; inset: auto; pointer-events: auto; min-width: 0; }
+.scene-controls .appearance-menu { z-index: 4; top: calc(100% + 10px); }
+.scene-controls .menu-bridge { inset: 0 0 -12px; clip-path: none; }
+@media(max-width:900px) {
+  .drawform-experience.phase-overview .stage { height: calc(var(--scene-height) + 280px); }
+  .scene-controls { top: calc(var(--scene-height) + 150px); grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .scene-controls .appearance-menu { left: 0; transform: none; }
+  .scene-controls .appearance-hotspot:last-child .appearance-menu { left: auto; right: 0; }
+}
+
+/* One brand interaction color; the canvases never own navigation or focus. */
+.drawform-experience { --acid: #0066ff; --on-acid: #fff; }
+.drawform-experience .workflow-cta, .drawform-experience .back { background: #0066ff; color: #fff; }
+.drawform-experience .workflow-cta:hover, .drawform-experience .back:hover:not(:disabled) { background: #0055d6; color: #fff; }
+.drawform-experience .workflow-entry { border-color: #9db4c6; transition: border-color 160ms, background 160ms, box-shadow 160ms, transform 160ms; }
+.drawform-experience .workflow-entry-primary { border-color: #73aaff; }
+.drawform-experience .workflow-entry:hover, .drawform-experience .workflow-entry:focus-visible { background: #244d75; border-color: #8ab8ff; box-shadow: 0 8px 24px #123b6826; }
+.drawform-experience .workflow-entry:hover h3, .drawform-experience .workflow-entry-primary .workflow-entry-action { color: #fff; }
+.drawform-experience .workflow-entry:active { transform: translateY(0) scale(.985); background: #174688; }
+.drawform-experience .workflow-number { color: #d3e5ff; }
+.drawform-experience a:focus-visible, .drawform-experience button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; box-shadow: 0 0 0 5px #0066ff; }
+.drawform-experience .workflow-guide-item button:hover { background: #285a91; color: #fff; border-radius: 6px; }
+.drawform-experience .workflow-guide-item button.selected { background: #0066ff; color: #fff; border-radius: 6px; padding-left: 8px; padding-right: 8px; }
+.canvas-feature { min-width: 0; height: 100%; border-radius: 12px; isolation: isolate; }
+.canvas-feature .workflow-entry { height: 100%; }
+.canvas-feature canvas { border-radius: 12px; }
+.scene-controls .hotspot:active:not(:disabled) { background: #0047b3; }
+@media(prefers-reduced-motion:reduce) {
+  .drawform-experience .workflow-entry, .drawform-experience .hotspot { transition: none; transform: none; }
+}

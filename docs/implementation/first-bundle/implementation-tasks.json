@@ -1,0 +1,487 @@
+[
+  {
+    "id": "S00",
+    "name": "基线冻结",
+    "capabilities": "—",
+    "dependencies": [],
+    "owner": "统筹",
+    "deliverables": "唯一正式根、工作树SHA/依赖/数据/原型增量清单、恢复点",
+    "acceptance": "原型完成；正式根与遗留问题可复核"
+  },
+  {
+    "id": "S01",
+    "name": "契约冻结",
+    "capabilities": "C01/02/03/04/50",
+    "dependencies": [
+      "S00"
+    ],
+    "owner": "A",
+    "deliverables": "contracts/*、API schema与示例",
+    "acceptance": "状态、权限、幂等作用域、版本关系无歧义"
+  },
+  {
+    "id": "S02",
+    "name": "文档持久化",
+    "capabilities": "C02",
+    "dependencies": [
+      "S01"
+    ],
+    "owner": "A",
+    "deliverables": "store/migrations/artifacts/source_packages/projects",
+    "acceptance": "不可变blob、CAS、短事务、重启恢复"
+  },
+  {
+    "id": "S03",
+    "name": "旧版本迁移",
+    "capabilities": "C02/03",
+    "dependencies": [
+      "S00",
+      "S01"
+    ],
+    "owner": "A",
+    "deliverables": "jobs.py _load/版本记录",
+    "acceptance": "缺件不删历史、不重号；歧义隔离"
+  },
+  {
+    "id": "S04",
+    "name": "规则profile",
+    "capabilities": "C04",
+    "dependencies": [
+      "S01"
+    ],
+    "owner": "B",
+    "deliverables": "profiles/provenance与已核规则清单",
+    "acceptance": "内容hash、适用范围、冲突/来源记录"
+  },
+  {
+    "id": "S05",
+    "name": "runtime注册探测",
+    "capabilities": "C01",
+    "dependencies": [
+      "S01"
+    ],
+    "owner": "B",
+    "deliverables": "registry+adapter descriptor",
+    "acceptance": "三个引擎可用性逐项有证据"
+  },
+  {
+    "id": "S06",
+    "name": "子进程监督",
+    "capabilities": "C01/03",
+    "dependencies": [
+      "S02",
+      "S05"
+    ],
+    "owner": "B",
+    "deliverables": "supervisor/protocol+attempt",
+    "acceptance": "超时/取消/迟到消息不会写HEAD"
+  },
+  {
+    "id": "S07",
+    "name": "legacy请求幂等",
+    "capabilities": "C03",
+    "dependencies": [
+      "S02",
+      "S03",
+      "S06"
+    ],
+    "owner": "A",
+    "deliverables": "submit_once+legacy_bridge",
+    "acceptance": "副作用前receipt、重试不重复建Job"
+  },
+  {
+    "id": "S08",
+    "name": "cadgen源包运行",
+    "capabilities": "C19",
+    "dependencies": [
+      "S01",
+      "S02",
+      "S05",
+      "S06"
+    ],
+    "owner": "B",
+    "deliverables": "cadgen_bridge/runner/model_task",
+    "acceptance": "真实无参入口和参数文件，冷进程隔离"
+  },
+  {
+    "id": "S10",
+    "name": "共用验证器",
+    "capabilities": "C04/37/50",
+    "dependencies": [
+      "S01",
+      "S02",
+      "S04"
+    ],
+    "owner": "B",
+    "deliverables": "validation/step,dxf,roundtrip,companions",
+    "acceptance": "逐项语义与unknown规则明确"
+  },
+  {
+    "id": "S09",
+    "name": "模型验证发布",
+    "capabilities": "C19/02",
+    "dependencies": [
+      "S02",
+      "S04",
+      "S08",
+      "S10"
+    ],
+    "owner": "A+B",
+    "deliverables": "publication+ModelBuildResult",
+    "acceptance": "有效STEP/sidecar+CAS才生效"
+  },
+  {
+    "id": "S11",
+    "name": "LibreCAD转换",
+    "capabilities": "C37",
+    "dependencies": [
+      "S05",
+      "S06",
+      "S10"
+    ],
+    "owner": "B",
+    "deliverables": "adapters/librecad",
+    "acceptance": "R2010真CLI/新目标/往返检查"
+  },
+  {
+    "id": "S12",
+    "name": "统一legacy发布",
+    "capabilities": "C03",
+    "dependencies": [
+      "S02",
+      "S03",
+      "S07",
+      "S10"
+    ],
+    "owner": "A",
+    "deliverables": "legacy_journal+jobs/app/interaction/production",
+    "acceptance": "五阶段恢复；旧/新所有入口共门"
+  },
+  {
+    "id": "S13",
+    "name": "人工编辑后端",
+    "capabilities": "C37",
+    "dependencies": [
+      "S11",
+      "S12"
+    ],
+    "owner": "A+B",
+    "deliverables": "external_edits",
+    "acceptance": "导入≠采用；并发base重验"
+  },
+  {
+    "id": "S14",
+    "name": "STEP/格式资源",
+    "capabilities": "C06",
+    "dependencies": [
+      "S02",
+      "S06",
+      "S08",
+      "S10"
+    ],
+    "owner": "B",
+    "deliverables": "resources/viewer_jobs/viewer_tasks",
+    "acceptance": "assembly/SURF/TESS版本和producer锁定"
+  },
+  {
+    "id": "S15",
+    "name": "查看器宿主",
+    "capabilities": "C06",
+    "dependencies": [
+      "S01",
+      "S14"
+    ],
+    "owner": "C",
+    "deliverables": "host/*+ViewerPane+documentSession",
+    "acceptance": "alias/worker/abort/格式矩阵正确"
+  },
+  {
+    "id": "S16",
+    "name": "项目壳与导入",
+    "capabilities": "C53",
+    "dependencies": [
+      "S02",
+      "S04",
+      "S05"
+    ],
+    "owner": "C+A",
+    "deliverables": "api/projects+pages/api/state",
+    "acceptance": "同源鉴权、刷新恢复、关联导航"
+  },
+  {
+    "id": "S17",
+    "name": "旧流程接续",
+    "capabilities": "C53",
+    "dependencies": [
+      "S07",
+      "S12",
+      "S16"
+    ],
+    "owner": "A+C",
+    "deliverables": "legacy_bridge+审图台深链接",
+    "acceptance": "同一Job/冻结/人审，回跳重读上下文"
+  },
+  {
+    "id": "S18",
+    "name": "建模交互",
+    "capabilities": "C19",
+    "dependencies": [
+      "S08",
+      "S09",
+      "S16"
+    ],
+    "owner": "C",
+    "deliverables": "ModelBuildPanel",
+    "acceptance": "参数验证、终态错误/来源版本展示"
+  },
+  {
+    "id": "S19",
+    "name": "编辑交互",
+    "capabilities": "C37",
+    "dependencies": [
+      "S13",
+      "S16"
+    ],
+    "owner": "C",
+    "deliverables": "ExternalEditPanel",
+    "acceptance": "工作副本/候选差异/明确采用"
+  },
+  {
+    "id": "S20",
+    "name": "manifest交付",
+    "capabilities": "C50",
+    "dependencies": [
+      "S10",
+      "S12",
+      "S13",
+      "S14"
+    ],
+    "owner": "B+A",
+    "deliverables": "packages+validation/package+ArtifactPanel",
+    "acceptance": "一致快照、逐文件版本、新进程回读"
+  },
+  {
+    "id": "S21",
+    "name": "完整恢复",
+    "capabilities": "C03/53",
+    "dependencies": [
+      "S02",
+      "S03",
+      "S12",
+      "S20"
+    ],
+    "owner": "A",
+    "deliverables": "backups+maintenance/production",
+    "acceptance": "新目录/新进程恢复且保留全部权威"
+  },
+  {
+    "id": "S22",
+    "name": "验收资产",
+    "capabilities": "全部",
+    "dependencies": [
+      "S01"
+    ],
+    "owner": "D",
+    "deliverables": "tests/workbench、样本/故障矩阵",
+    "acceptance": "非空固定集合、正反例与证据格式"
+  },
+  {
+    "id": "S23",
+    "name": "真实CAD/视觉",
+    "capabilities": "C06/37/50",
+    "dependencies": [
+      "S11",
+      "S13",
+      "S15",
+      "S19",
+      "S20",
+      "S22"
+    ],
+    "owner": "D+工程师",
+    "deliverables": "真实软件保存/打印+viewer浏览器证据",
+    "acceptance": "与自动化分列；任何关键失败阻止相应能力上线"
+  },
+  {
+    "id": "N01",
+    "name": "图纸/文本输入归档",
+    "capabilities": "C21",
+    "dependencies": [
+      "S01",
+      "S02",
+      "S16"
+    ],
+    "owner": "A+B",
+    "deliverables": "modeling/intake、PDF页/DXF实体来源索引",
+    "acceptance": "原文件/页裁切/文字有SHA；活动内容不执行"
+  },
+  {
+    "id": "N02",
+    "name": "模型provider和预算",
+    "capabilities": "C21",
+    "dependencies": [
+      "S01",
+      "S05",
+      "S06"
+    ],
+    "owner": "A+B",
+    "deliverables": "modeling/providers、transfer plan、预算账",
+    "acceptance": "能力实测、外发范围/重试/费用可控且可恢复"
+  },
+  {
+    "id": "N03",
+    "name": "规格与事实契约",
+    "capabilities": "C19/21",
+    "dependencies": [
+      "S01",
+      "S04"
+    ],
+    "owner": "A",
+    "deliverables": "contracts/modeling、facts/spec schema",
+    "acceptance": "单位/坐标/来源/假设/required_checks由服务端policy生成且完备"
+  },
+  {
+    "id": "N04",
+    "name": "白名单特征编译",
+    "capabilities": "C19",
+    "dependencies": [
+      "S08",
+      "S10",
+      "N03"
+    ],
+    "owner": "B",
+    "deliverables": "modeling/compiler、可信模板/feature handlers",
+    "acceptance": "有限JSON生成build123d Shape，拒任意代码/表达式"
+  },
+  {
+    "id": "N05",
+    "name": "多模态提取/澄清",
+    "capabilities": "C21",
+    "dependencies": [
+      "N01",
+      "N02",
+      "N03"
+    ],
+    "owner": "A+B",
+    "deliverables": "facts/extractor、question basis",
+    "acceptance": "关键缺项与冲突可定位；不默填制造尺寸"
+  },
+  {
+    "id": "N06",
+    "name": "智能建模编排",
+    "capabilities": "C21",
+    "dependencies": [
+      "N02",
+      "N04",
+      "N05",
+      "S09"
+    ],
+    "owner": "A",
+    "deliverables": "modeling/orchestrator+session migration",
+    "acceptance": "analysis/build为有界子operation，候选不自动推进HEAD"
+  },
+  {
+    "id": "N07",
+    "name": "独立量测/视觉修正",
+    "capabilities": "C19/21/50",
+    "dependencies": [
+      "N06",
+      "S14",
+      "S10"
+    ],
+    "owner": "B",
+    "deliverables": "modeling/checks/snapshots/repair constraints",
+    "acceptance": "重开STEP量测+同版本截图；锁定需求不得被修正删除"
+  },
+  {
+    "id": "N08",
+    "name": "低输入建模交互",
+    "capabilities": "C21/53",
+    "dependencies": [
+      "N05",
+      "N06",
+      "N07",
+      "S15",
+      "S16"
+    ],
+    "owner": "C",
+    "deliverables": "IntentComposer/EvidencePanel/ReviewPanel",
+    "acceptance": "文字/图纸输入、最少追问、参数/来源/预览确认"
+  },
+  {
+    "id": "N09",
+    "name": "STEP导出与2D接续",
+    "capabilities": "C57-STEP/21",
+    "dependencies": [
+      "N07",
+      "N08",
+      "S07",
+      "S12",
+      "S20"
+    ],
+    "owner": "A+B",
+    "deliverables": "modeling/exports/adoption+legacy bridge",
+    "acceptance": "版本绑定STEP重开；确认依据后调用唯一出图队列"
+  },
+  {
+    "id": "N10",
+    "name": "多轮修改与恢复",
+    "capabilities": "C21/02/03",
+    "dependencies": [
+      "N06",
+      "N07",
+      "N08",
+      "S03"
+    ],
+    "owner": "A+C",
+    "deliverables": "spec revision、candidate history、会话恢复",
+    "acceptance": "改孔径不改别处；迟到结果/旧问答不覆盖新意图"
+  },
+  {
+    "id": "N11",
+    "name": "真实模型验收资产",
+    "capabilities": "C21/50",
+    "dependencies": [
+      "N03",
+      "N07",
+      "N09",
+      "N10",
+      "S22"
+    ],
+    "owner": "D+工程师",
+    "deliverables": "成对图纸/文字数据、独立几何真值、真实provider记录",
+    "acceptance": "固定非空集合，错误肯定率0，mock与真实结果分列"
+  },
+  {
+    "id": "N12",
+    "name": "智能闭环发布门",
+    "capabilities": "C21/57",
+    "dependencies": [
+      "N09",
+      "N10",
+      "N11",
+      "S21",
+      "S23"
+    ],
+    "owner": "统筹+D",
+    "deliverables": "文本/图纸→STEP→2D→恢复的同件验证",
+    "acceptance": "合格输入真实端到端；关键未知/错误拒正式状态"
+  },
+  {
+    "id": "S99",
+    "name": "唯一首包集成验收",
+    "capabilities": "全部",
+    "dependencies": [
+      "S09",
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S23",
+      "N12"
+    ],
+    "owner": "统筹+D",
+    "deliverables": "全链回放/复核/回滚报告",
+    "acceptance": "覆盖所有任务依赖；无未解决关键阻断"
+  }
+]
